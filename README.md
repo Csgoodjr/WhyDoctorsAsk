@@ -5,7 +5,7 @@ Source code for whydoctorsask.com
 This site is the brain child of Dylan Vance -- a current Medical Student at Drexel Unversity
 
 # Current Technologies
-- Python (3.7.0)
+- Python 3.7.0
 - Flask 1.1.1
 - Werkzeug 0.15.4
 
