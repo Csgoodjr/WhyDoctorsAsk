@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    {% if title %}
+    <title>WhyDoctorsAsk.com - {{ title }}</title>
+    {% else %}
+    <title>WhyDoctorsAsk.com</title>
+    {% endif %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <button class="main-nav-button" onclick="location.href='/home';">Home</button>
+            <button class="main-nav-button" onclick="location.href='/hpi';">HPI</button>
+            <button class="main-nav-button" onclick="location.href='/pmh';">PMH</button>
+            <button class="main-nav-button" onclick="location.href='/fhx';">FHX</button>
+            <button class="main-nav-button" onclick="location.href='/shx';">SHX</button>
+            <button class="main-nav-button" onclick="location.href='/subhx';">SUBHX</button>
+            <button class="main-nav-button" onclick="location.href='/sexhx';">SEXHX</button>
+            <button class="main-nav-button" onclick="location.href='/rhx';">RHX</button>
+            <button class="main-nav-button" onclick="location.href='/about';">About</button>
+        </nav>
+    </header>
+    {% block content %}{% endblock %}
+    <footer class="main-footer">
+
+    </footer>
+</body>
+
+</html>

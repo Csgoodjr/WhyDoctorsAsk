@@ -1,0 +1,1338 @@
+[
+    {
+        "questionsDoctorsAsk":
+        {
+            "historyOfPresentIllness":
+            {
+                "intro":"This is what doctors call what you are coming in to see them for",
+                "sections":
+                [
+                    "Main"
+                ],
+                "questions":
+                [
+                    {
+                        "question":"What brings you to the office today?",
+                        "answer":"Most doctors will open their interviews with a question similar to this. It lets you tell your doctor what is going on with you. Always feel free to share anything that is bothering you. Some doctors call this the chief complaint, or the reason you wanted to see a doctor.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Anything else?",
+                        "answer":"A This is a doctor's favorite phrase. It is a way that doctors can get more information in case you remember something else you want to talk about. The whole picture is always important when it comes to your health.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"When did it start?",
+                        "answer":"This is known as the onset. By telling doctors when you started feeling bad, doctors can begin to think of possible illnesses that could be the cause. Certain illnesses can cause pain or discomfort at very specific times, like right when you wake up or in the middle of the night. You can also have problems develop when you start getting Stressed out. Knowing the onset (and the things happening with it) can be very helpful.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Where is the pain or problem?",
+                        "answer":"Location, Location, Location. It is very important to know where the pain or discomfort is. It helps doctors know what body functions and anatomy to focus on in both their differential diagnosis and during the physical exam.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"How long has this pain or problem been going on?",
+                        "answer":"This is known as the duration. It helps physicians categorize your symptoms. Different symptoms have different timelines, usually categorized as a short timeline (Acute), a medium timeline (Sub-Acute) and a long timeline (Chronic). Each of these timelines can help doctors with their differential diagnosis (a list of what doctors are thinking is happening) to determine what is happening to you. Short or long durations can point to very different health conditions.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Can you describe the pain or problem?",
+                        "answer":"Doctors call this the characteristics. Describing how your body feels helps doctors determine what could possibly be going on. Different characteristics can lead to different diagnoses. For example, migraines are known to have a pulsating pain, while tension headaches feel “band-like.”",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Can you rate the pain?",
+                        "answer":"A Most doctors ask on a scale of 1-10, how much pain you are in. Ranking something as low pain does not mean that the doctor will not care about your problem as much. Instead, the scale is used to help doctors determine their priorities on their differential diagnosis.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Has the pain or problem stayed in one place?",
+                        "answer":"Has the pain or problem moved to anywhere else on your body? Doctors call this radiation. This helps doctors think about different processes that can cause pain or problems to move from one place to another.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"How often does this pain or problem happen?",
+                        "answer":"This is what doctors call the frequency. It helps doctors sort their differential hypothesis by things that are constant or ones that come and go.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Does anything make it better?",
+                        "answer":"This seems like a silly question. You might wonder, “if I knew how to make it better, why would I be here?” This question however, helps doctors think of treatments that may act in a similar way. Certain diseases also characteristically get better with rest in a quiet room or with use of over the counter medicine.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Does anything make it worse?",
+                        "answer":"Doctors use this to categorize their differential diagnosis. Things that make you feel worse usually have a reason behind them, and doctors use this to determine their diagnosis and treatment plan.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Have you been having any other signs or symptoms?",
+                        "answer":"Doctors love to get all the information they can. Knowing all of the symptoms can help doctors get the full picture and make their differential diagnosis.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Have you ever had these symptoms before?",
+                        "answer":"Your previous experiences with symptoms can help doctors figure out if it something from your past medical history that is causing your symptoms. For example Asthma can reoccur later in life, and letting your doctor know you had asthma attacks when you were younger can point the doctor to the right differential diagnosis.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Was something major going on in your life when your symptoms began?",
+                        "answer":"This question lets doctors know a potential trigger and can help with the differential diagnosis. Doctors do not share anything with the outside world. The examination room is always a safe place to share information. Sharing information with your doctor is the best way for the doctor get all the information needed to help you feel better.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"How has this affected your life?",
+                        "answer":"Doctors ask this to know how the problem is affecting your life. A doctor's goal is to help you feel better and to get back to your normal state.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"What does this mean to you?",
+                        "answer":"A patient and a doctor are going to think different symptoms mean totally different things. Doctors want to hear what you think is the cause or what is happening with your body so they can address it when they have figured out your diagnosis. A diagnosis is not going to be helpful if the doctor does not explain what it means and if the patient does not understand what is going on.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"What worries you about this problem?",
+                        "answer":"A We all get scared and have fears about what is going on with our bodies when we aren’t feeling great. Doctors want to hear what worries you about the problem because their goal is to help put you at ease and help you feel better!",
+                        "image": false,
+                        "container": "Main"
+                    }
+                ]
+            },
+            "pastMedicalHistory":
+            {
+                "intro":"",
+                "sections":
+                [
+                    "Main",
+                    "OBGYN"
+                ],
+                "questions":
+                [
+                    {
+                        "question":"Do you have any medical conditions?",
+                        "answer":"Telling your doctor all of your past conditions can help your doctor determine if they are related to what is happening at the time you come to the office.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Have you had any surgeries?",
+                        "answer":"Past surgeries help doctors determine if one of your previous surgeries could be playing a role in what you are seeing the doctor for. Past surgeries may also clue the doctor into some of your past medical conditions. They can use this in their differential diagnosis.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"When was your last period?",
+                        "answer":"This lets doctors know if your last period was within a normal timeframe. Depending on the timeline, they might want to do a pregnancy test or check iron levels. Pregnancy is not the only reason for you to miss your period, although that is the most common association to missed periods.",
+                        "image": false,
+                        "container": "obgyn"
+                    },
+                    {
+                        "question":"Are your periods regular?",
+                        "answer":"This question may cause your doctor to ask more questions describing your periods and may ask for you to follow up with an OB/GYN specialist.",
+                        "image": false,
+                        "container": "obgyn"
+                    },
+                    {
+                        "question":"Have you been pregnant before?",
+                        "answer":"This gives doctors a picture of your whole health because pregnancy does cause changes to the body even after you give birth.",
+                        "image": false,
+                        "container": "obgyn"
+                    },
+                    {
+                        "question":"If you are in menopause, how are your symptoms?",
+                        "answer":"This can tell doctors if the symptoms you are experiencing at your visit are related to the menopause process.",
+                        "image": false,
+                        "container": "obgyn"
+                    },
+                    {
+                        "question":"Have you ever been diagnosed with any mental health problems?",
+                        "answer":"Mental health is incredibly important. The examination room is always a safe place to share information. Sharing information with your doctor is the best way for the doctor get all the information so they can get whole picture of your past medical history.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Have you ever been injured?",
+                        "answer":"Doctors ask this in order to get a picture of your whole health. Injuries such as car accidents can leave long-lasting impacts on your health and telling your doctor can help their differential diagnosis to see if your injury could be related to what you are coming in for.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"How often do you see your Primary Care Physician (PCP)?",
+                        "answer":"Doctors ask this to know if you are checking in with a doctor about your health on a regular basis, including for annual physicals. Seeing your PCP on a regular basis can help catch diseases early, especially for diseases like cancer where catching the disease early can save your life.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Are you up to date on your immunizations?",
+                        "answers":"This includes childhood vaccines, as well as the flu shot. If a doctor suspects an infection, knowing which vaccines you have gotten can help the doctor narrow down which germ is most likely the cause.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Do you wear your seatbelt/text when you drive/ is there a smoke alarm/carbon monoxide detector in your house?",
+                        "answer":"These are known as health Maintenance questions to know if you are taking steps to prevent injuries.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Do you wear sunscreen outside?",
+                        "answer":"Sunscreen is one of the best ways to prevent sunburn and skin cancer. Doctors ask this to know if they need to look during the physical exam for any marks on your body (even if you say yes, they will still do a general look-over of your skin).",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Have you had a Pap smear or a Mammogram (females)?",
+                        "answer":"Pap smears are a screening tool to check for cervical cancer and Mammograms are used to screen for breast cancers. Pap smear screening tests start around the age of 21 and should be done every three years and mammograms should start after the age of 40 and should be done once a year. If you have a family history of either cervical or breast cancer it is important to talk to your doctor about doing these screening tests earlier. This is also where finding out about family history of cancer becomes important. (Link it to mammo/pap in common screening tests i.e to learn more about pap/mammo click here)",
+                        "image": false,
+                        "container": "obgyn"
+                    },
+                    {
+                        "question":"Do you have any allergies?",
+                        "answer":"This also includes allergic reactions to any medications you have used in the past. If you are allergic to a drug, the doctor will prescribe you something that will not cause an allergic reaction.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Do you take any medication, including over the counter medications?",
+                        "answer":"This is so doctors can know if any of the medications they will prescribe to you will interact with any of your medications. Your symptoms can also be related to side effects of a medication you are taking.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Do you take any vitamins?",
+                        "answer":"Doctors ask this because there are some medical conditions that are related to vitamin and mineral deficiencies and can use this question to rule those out.",
+                        "image": false,
+                        "container": "Main"
+                    },
+                    {
+                        "question":"Do you take any herbal supplements?",
+                        "answer":"Doctors ask this to know everything that you are taking and if it is having any impact on what you are seeing the doctor for.",
+                        "image": false,
+                        "container": "Main"
+                    }
+                ]
+            },
+            "familyHistory":
+            {
+                "intro":"",
+                "sections":
+                [
+                    "Main"
+                ],
+                "questions":
+                [
+                    {
+                        "question":"Can you tell me about your parents?",
+                        "answer":"Doctors will ask about medical conditions that your parents had. They look for events that occurred early such as having a heart attack at a young age. This is so doctors can evaluate your risk for certain diseases based on what your family has had in the past.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Can you tell me about your siblings?",
+                        "answer":"Doctors ask about your siblings because your DNA is closely related. Diseases that your siblings have may indicate to your doctor that you are at a higher risk of developing that disease. Your doctor will most like order certain tests and tell you about prevention strategies.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Can you tell me about your children if you have any?",
+                        "answer":"Doctors ask this to get the full picture of your family.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Can you tell me about your grandparents?",
+                        "answer":"Doctors will ask about medical conditions that your grandparents had. They look for events that occurred early such as having a heart attack at a young age. This is so doctors can evaluate your risk for certain diseases based on what your family has had in the past.",
+                        "image":false,
+                        "container":"Main"
+                    }
+                ]
+            },
+            "socialHistory":
+            {
+                "intro":"",
+                "sections":
+                [
+                    "Main",
+                    "Exercise",
+                    "Stress"
+                ],
+                "questions":
+                [
+                    {
+                        "question":"Can you take me through a normal day?",
+                        "answer":"Doctors ask this for information about your normal day to day activities. This can help doctors understand how what you are coming in for is affecting you.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Who do you live with? ",
+                        "answer":"Doctors ask this to get a picture of your direct support system.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"How are things at home?",
+                        "answer":"Doctors ask this to know if there is increased stress at home that could affect your health. The doctor's office is a safe place to share information and if domestic violence is occuring in your home your doctor can help.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Do you have anyone to rely on?",
+                        "answer":"Doctors ask this to get a picture of your support system.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"How have your friends and family responded to your illness?",
+                        "answer":"Doctors ask this to gauge if the symptoms you are feeling are visible to your support group because this can point to the symptoms impacting your life more.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Where do you work? ",
+                        "answer":"Doctors care about your work! Doctors are looking for physical, chemical, and emotional work hazards, since they could relate to the diagnosis. Alternatively, if you don’t work, you might be extra Stressed or relaxed.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"How is work?",
+                        "answer":"Doctors use this to find out your stress levels at work.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Do you have any sick contacts?",
+                        "answer":"Doctors ask this to know if there are people around you who have an infection. This may make certain infections higher on the doctor’s differential diagnosis.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Have you traveled recently?",
+                        "answer":"Doctors ask this to know if you gone to an area where other infections are more common. This may make certain infections higher on the doctor’s differential diagnosis.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":
+                        [
+                            "How often do you excercise?",
+                            "How long do you excercise for?",
+                            "What type of excercise?"
+                        ],
+                        "answer":"Doctors ask about excercise because it is important for your physical health. Excercise is one of the best ways to prevent getting sick. It helps keep your muscles working (can burn calories even at rest!) and can even help your brain function better. Excercise can include weight-lifting, jogging, sprinting, swimming, and even something as simple as walking the long route to the cafeteria for lunch. It’s tough to fit Excercise into our busy lives, so try to make small adjustments that can lead you to exercising a little more each day.",
+                        "image":false,
+                        "container":"Excercise"
+                    },
+                    {
+                        "question":"How is your diet?",
+                        "answer":"Your diet is so important to your health. Doctors want to know if you are getting the sugar, protein, fat,  vitamins, salt, and minerals you need each day. Missing too much of one thing or having too much of another thing can have a large effect on your health. Ask your doctor about your diet and if you are giving your body everything you need. Dieting can be scary and not all the diets floating around on the internet are safe. Your doctor can help you get started in the right direction, or refer you to a dietician or nutritionist.  One of the best ways to start a safer diet is make small changes. For example, if you drink 2 glasses of soda a day, try cutting it down to 1 a day.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Do you have any financial concerns?",
+                        "answer":"It sounds a little weird for your doctor (the one you’re paying right now for the visit) to ask about your finances. There is a reason though! Depending on your concerns, your doctor will work with you to prescribe medications that can fit your budget but still be effective. Your doctor may also share with you other resources to help pay for medication, and health insurance.",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"How would you rate your stress?",
+                        "answer":"Stress can have huge impacts on your health. Stress can throw your whole body out of whack and a doctor asks about stress levels to determine if it is affecting your symptoms.",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"Have you had any recent significant life events?",
+                        "answer":"Doctors ask this to find out if these events are having any impact on your health and if this could be affecting the symptoms you are coming in for.",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"How would you describe your mood?",
+                        "answer":"Your mental health is important! Share with your doctor how you have been feeling. It can help your doctor know if this is affecting your health.",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"Have you had any anxiety?",
+                        "answer":"You may feel anxious just being in the doctor's office, but your doctor wants to know so that they can give you either the resources or medications to help prevent your anxiety.",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"Have you felt depressed?",
+                        "answer":"Depression is a serious matter and you should tell your doctor how your mood has been. Your doctor can give you the resources or medications to help you through your depression. Your doctor may also ask some other questions that include:",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"How is your sleep?",
+                        "answer":"Depression can cause sleep problems.",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"What are you interested in? ",
+                        "answer":"Depression leads to decreased interest.",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"Do you feel guilty about anything?",
+                        "answer":"Depression can make you feel more guilty than you normally would.",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"How is your energy level?",
+                        "answer":"Depression can decrease your energy level.",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"How has your concentration been lately? ",
+                        "answer":"Depression can make it harder to concentrate",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"How is your appetite?",
+                        "answer":"Depression can decrease your appetite.",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"Have you felt suicidal?",
+                        "answer":"Suicide is on the rise in United States, and it is believed that 50% of people who commit suicide visit their doctor 4 weeks before. Doctors ask this in order to give you resources to help you. If you or a loved one are feeling suicidal call the suicide hotline at 1-800-273-8255.",
+                        "image":false,
+                        "container":"Stress"
+                    },
+                    {
+                        "question":"Have you ever had any physical or sexual abuse? ",
+                        "answer":"Your doctor’s office is a safe place to share information like this. Your doctor does not share this with anyone and only uses this to give you the best care they can.",
+                        "image":false,
+                        "container":"Stress"
+                    }
+                ]
+            },
+            "substanceHistory":
+            {
+                "intro":"",
+                "sections":
+                [
+                    "Cigarettes",
+                    "Alcohol"
+                ],
+                "questions":
+                [
+                    {
+                        "question":"Do you currently smoke?",
+                        "answer":"",
+                        "image":false,
+                        "container":"Cigarettes"
+                    },
+                    {
+                        "question":"How many cigarettes do you smoke a day?",
+                        "answer":"",
+                        "image":false,
+                        "container":"Cigarettes"
+                    },
+                    {
+                        "question":"Have you ever smoked?",
+                        "answer":"",
+                        "image":false,
+                        "container":"Cigarettes"
+                    },
+                    {
+                        "question":"How many cigarettes a day did you smoke?",
+                        "answer":"",
+                        "image":false,
+                        "container":"Cigarettes"
+                    },
+                    {
+                        "question":"How many years have you smoked for? ",
+                        "answer":"",
+                        "image":false,
+                        "container":"Cigarettes"
+                    },
+                    {
+                        "question":"Have you thought about smoking cessation? ",
+                        "answer":"Quitting smoking is one of the best things you can do to increase your health. Just by having your doctor ask you if you would want to quit smoking actually increases the chance that at some point in the future you will try to quit smoking. It is not easy to quit and your doctor will be with you throughout your journey to quitting and help you find what helps you quit or decrease the amount you smoke a day. ",
+                        "image":false,
+                        "container":"Cigarettes"
+                    },
+                    {
+                        "question":"Do you currently drink alcohol?",
+                        "answer":"",
+                        "image":false,
+                        "container":"Alcohol"
+                    },
+                    {
+                        "question":"If you do drink, how much?",
+                        "answer":"",
+                        "image":false,
+                        "container":"Alcohol"
+                    },
+                    {
+                        "question":"Could you describe your past drinking habits for me?",
+                        "answer":"Doctors ask about alcohol use because alcohol use has direct effects on both your liver, heart, and brain. Your doctor is looking to see if this has an influence on the differential diagnosis.",
+                        "image":false,
+                        "container":"Alcohol"
+                    },
+                    {
+                        "question":"Have you thought about alcohol cessation? ",
+                        "answer":"Quitting alcohol is a great way to increase your health. Even if it is cutting down on the number of drinks you have, there can be big influences on your health. It is not easy to quit and your doctor will be with you throughout your journey to quitting.",
+                        "image":false,
+                        "container":"Alcohol"
+                    },
+                    {
+                        "question":"Do you use any Illicit Drugs?",
+                        "answer":"Doctors do not share this with anyone, including law enforcement. The doctor's office is a safe place for you to share about your health. Your doctor is asking this because some drugs can cause a lot of long term symptoms that could have a negative influence on your health.",
+                        "image":false,
+                        "container":"Alcohol"
+                    }
+                ]
+            },
+            "sexualHistory":
+            {
+                "intro":"",
+                "sections":
+                [
+                    "Main",
+                    "Functional Status"
+                ],
+                "questions":
+                [
+                    {
+                        "question":"Do you have a significant other? ",
+                        "answer":"Your doctor asks you this to know if you have a partner and to know if you have a direct support group.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"How are things with your significant other? ",
+                        "answer":"Your doctor wants to know how your relationship is going to see if this is impacting your health",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Are you currently sexually active?",
+                        "answer":"Doctors ask this to know if a sexually transmitted disease should be in their differential diagnosis.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Do you, or have you ever had sex with males, females, or both?",
+                        "answer":"Doctors ask this because there are different risk factors associated with male-female, male-male, or female-female relationships that they will account for in their differential diagnosis.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Do you use contraceptives (condoms, birth control)?",
+                        "answer":"Contraceptives are a great way to prevent pregnancy and condoms are a great way in preventing some, but not all sexually transmitted diseases. Doctors ask this to know if you are reducing your risk for both pregnancy and sexually transmitted diseases.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Any problems during sex?",
+                        "answer":"Doctors ask this because your sexual health can impact your mental health. By addressing any problems you are currently having with sex, they can help increase your mental health. Additionally, these problems can impact your sexual life, and addressing these issues can help you feel less social or physical discomfort. ",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"Are you interested in HIV testing? ",
+                        "answer":"Current recommendations is that everyone should be tested for HIV at least once, so your doctor may ask you if you would want to be tested.",
+                        "image":false,
+                        "container":"Main"
+                    },
+                    {
+                        "question":"How is your driving?",
+                        "answer":false,
+                        "image":false,
+                        "container":"Functional Status"
+                    },
+                    {
+                        "question":"Can you bathe yourself?",
+                        "answer":false,
+                        "image":false,
+                        "container":"Functional Status"
+                    },
+                    {
+                        "question":"Do you need help getting around the house?",
+                        "answer":false,
+                        "image":false,
+                        "container":"Functional Status"
+                    },
+                    {
+                        "question":"Can you work?",
+                        "answer":false,
+                        "image":false,
+                        "container":"Functional Status"
+                    },
+                    {
+                        "question":"Can you keep your finances in check?",
+                        "answer":false,
+                        "image":false,
+                        "container":"Functional Status"
+                    },
+                    {
+                        "question":"Can you shop?",
+                        "answer":false,
+                        "image":false,
+                        "container":"Functional Status"
+                    },
+                    {
+                        "question":"Can you cook?",
+                        "answer":false,
+                        "image":false,
+                        "container":"Functional Status"
+                    },
+                    {
+                        "question":"Can you clean your house?",
+                        "answer":false,
+                        "image":false,
+                        "container":"Functional Status"
+                    },
+                    {
+                        "question":"Can you dress yourself?",
+                        "answer":false,
+                        "image":false,
+                        "container":"Functional Status"
+                    }
+                ]
+            },
+            "reviewOfSymptoms":
+            {
+                "intro":"",
+                "sections":
+                [
+                    "General",
+                    "Head and Neck",
+                    "Brain and Nerves",
+                    "Vision",
+                    "Heart and Blood Vessels",
+                    "Lungs",
+                    "Digestion",
+                    "Genitals and Urination",
+                    "Related to Blood",
+                    "Muscles, Bones, Joints, Tendons, Ligaments, and Movement",
+                    "Skin and Hair"
+                ],
+                "questions":
+                [
+                    {
+                        "question":"Any fatigue or difficulty sleeping?",
+                        "answer":"Tiredness can play a role in many different diseases. Fatigue can be from things such as anemia or infections.",
+                        "image":"false",
+                        "container":"General"
+                    },
+                    {
+                        "question":"Any constant, chronic pain?",
+                        "answer":"Doctors want to address any pain you are having so that they can help you feel better.",
+                        "image":"false",
+                        "container":"General"
+                    },
+                    {
+                        "question":"Any general feelings of feeling unwell?",
+                        "answer":"Doctors want to address any feelings of being unwell so they can help you feel better.",
+                        "image":"false",
+                        "container":"General"
+                    },
+                    {
+                        "question":"Any fevers?",
+                        "answer":"This can mean that you have a possible infection that the doctor will want to investigate further.",
+                        "image":"false",
+                        "container":"General"
+                    },
+                    {
+                        "question":"Any chronic (long term) pain in your head or neck?",
+                        "answer":"Doctors want to know this so they know to focus on an area during the physical exam.",
+                        "image":"false",
+                        "container":"Head and Neck"
+                    },
+                    {
+                        "question":"Any acute (short term) pain in your head or neck? ",
+                        "answer":"This can indicate something simple like a muscle cramp, or something more serious, like infection and inflammation",
+                        "image":"false",
+                        "container":"Head and Neck"
+                    },
+                    {
+                        "question":"Any noticeable masses? ",
+                        "answer":"Doctors like to make sure they don’t miss anything important, like new masses showing up",
+                        "image":"false",
+                        "container":"Head and Neck"
+                    },
+                    {
+                        "question":"Any changes in hearing?",
+                        "answer":"Hearing changes can be because of damage to the little hairs deep inside your ears that help conduct sound, wax, an issue with a neural pathway, infection, and much more! Some causes are normal, like with aging, and some can be worrisome",
+                        "image":"false",
+                        "container":"Head and Neck"
+                    },
+                    {
+                        "question":"Any pain in your ear or discharge (liquid/pus coming out of the ear)?",
+                        "answer":"This question relates to any injury or infection in the ear",
+                        "image":"false",
+                        "container":"Head and Neck"
+                    },
+                    {
+                        "question":"Any nasal dripping, stuffiness, or post nasal drip?",
+                        "answer":"Post nasal drip, or mucus dripping down to your throat while you sleep, is actually one of the most common causes for long term cough! These pesky changes can point to an infection or just allergies.",
+                        "image":"false",
+                        "container":"Head and Neck"
+                    },
+                    {
+                        "question":"Any changes in your voice?",
+                        "answer":"While there can be simple causes to changes in voice (like yelling at a concert), damage to or compression of certain nerves can cause changes to your voice",
+                        "image":"false",
+                        "container":"Head and Neck"
+                    },
+                    {
+                        "question":"Any toothaches or sensitivity in your mouth?",
+                        "answer":"Infection or dental issues can cause these problems.",
+                        "image":"false",
+                        "container":"Head and Neck"
+                    },
+                    {
+                        "question":"Any sores or open wounds near or in your mouth?",
+                        "answer":"These can be a sign of infection.",
+                        "image":"false",
+                        "container":"Head and Neck"
+                    },
+                    {
+                        "question":"Any sudden changes in levels of consciousness?",
+                        "answer":"This is an especially important and concerning finding. Even though you might be fine while at the doctor’s office, if you had a change in your level of consciousness (ex: you had recent fainting spells), this is something your doctor would want to find out the cause for.",
+                        "image":"false",
+                        "container":"Brain and Nerves"
+                    },
+                    {
+                        "question":"Any recent seizures?",
+                        "answer":"This can be a sign of overactivity in the brain. One seizure is not very concerning, but is important to monitor/keep track of. If they are happening repeatedly, the doctor can help you find ways to control them",
+                        "image":"false",
+                        "container":"Brain and Nerves"
+                    },
+                    {
+                        "question":"Any numbness?",
+                        "answer":"Numbness can indicate nerve problems.",
+                        "image":"false",
+                        "container":"Brain and Nerves"
+                    },
+                    {
+                        "question":"Any weakness?",
+                        "answer":"Sudden change in muscle tone, especially on one side, can imply a few causes, and it is important to know about weakness to rule out the more serious causes",
+                        "image":"false",
+                        "container":"Brain and Nerves"
+                    },
+                    {
+                        "question":"Any dizziness/balance issues?",
+                        "answer":"This might seem weird, but balance problems can actually be because of problems with your ear! The fluid in your ear helps you know what direction you are turning in and can help your body adjust to head movement. If the levels are off, you might start feeling dizzy. Problems with certain nerve pathways can also cause dizziness, so this is one of the things doctors like to rule out!",
+                        "image":"false",
+                        "container":"Brain and Nerves"
+                    },
+                    {
+                        "question":"Any headaches?",
+                        "answer":"There are a lot of causes for headaches and a lot of different types! This is another one where doctors like to rule out the most serious causes if you have this symptom.",
+                        "image":"false",
+                        "container":"Brain and Nerves"
+                    },
+                    {
+                        "question":"Any change in vision?",
+                        "answer":"You might need a new eye glasses prescription or there might be a problem in one of the pathways your visual system uses to help you see and understand what you are seeing",
+                        "image":"false",
+                        "container":"Vision"
+                    },
+                    {
+                        "question":"Any blurriness or double vision?",
+                        "answer":"These can point to either a problem with your eyes, muscles around your eyes, or in the brain. Doctors will want to look more into this during your physical exam and may recommend imaging or other tests.",
+                        "image":"false",
+                        "container":"Vision"
+                    },
+                    {
+                        "question":"Any pain in your eyes?",
+                        "answer":"Pain can point to a variety of things including an object getting in your eye, headaches, and infection.",
+                        "image":"false",
+                        "container":"Vision"
+                    },
+                    {
+                        "question":"Any redness in your eyes?",
+                        "answer":"Redness can be because of allergies, infection, or tiny vessels in your eyes bleeding (although much less likely)",
+                        "image":"false",
+                        "container":"Vision"
+                    },
+                    {
+                        "question":"Any itchiness or discharge from your eyes?",
+                        "answer":"This is usually because of allergies, but the doctor will probably want to make sure you don’t have conjunctivitis, more commonly known as Pink Eye! (This is an infection that can spread to other people and needs to be treated with certain drops)",
+                        "image":"false",
+                        "container":"Vision"
+                    },
+                    {
+                        "question":"Any difficulties reading?",
+                        "answer":"Vision changes over time. Typically, as we age our reading vision declines, and your doctor may recommend getting reading glasses.",
+                        "image":"false",
+                        "container":"Vision"
+                    },
+                    {
+                        "question":"Any chest pain?",
+                        "answer":"Chest pain is tricky. The major thing the doctor wants to rule out, and what you might be concerned about, is a heart attack. But there are different types of chest pain (burning, pressure, etc), and many different causes. It can be because of something simple like heartburn. Figuring out the cause is important.",
+                        "image":"false",
+                        "container":"Heart and Blood Vessels"
+                    },
+                    {
+                        "question":"Any palpitations [heart racing]?",
+                        "answer":"Palpitations can have many causes such as anxiety or mitral valve prolapse. Your doctor will want to pay attention to your heart during your physical exam or order a Holter monitor (a take-home EKG machine) to learn more about your palpitations.",
+                        "image":"false",
+                        "container":"Heart and Blood Vessels"
+                    },
+                    {
+                        "question":"Any swelling in your lower legs?",
+                        "answer":"This is called peripheral edema and can point to different vascular processes including congestive heart failure (CHF). ",
+                        "image":"false",
+                        "container":"Heart and Blood Vessels"
+                    },
+                    {
+                        "question":"Any leg pain while walking around?",
+                        "answer":"Leg pain while walking is called claudication (cramps!) and your doctor will want to look further into this. This can point to atherosclerosis (plaque build up in your arteries) and your doctor will want to give you medicines to prevent it from progressing any further.",
+                        "image":"false",
+                        "container":"Heart and Blood Vessels"
+                    },
+                    {
+                        "question":"Any difficulty breathing lying down?",
+                        "answer":"Breathing while lying down can help a doctor narrow the differential down to different heart conditions. Typically congestive heart failure causes problems with breathing at night.",
+                        "image":"false",
+                        "container":"Heart and Blood Vessels"
+                    },
+                    {
+                        "question":"How many pillows do you sleep with at night?",
+                        "answer":"Doctors ask this because it relates to congestive heart failure. The more pillows you use, the more your doctor will want to get you started on treatment.",
+                        "image":"false",
+                        "container":"Heart and Blood Vessels"
+                    },
+                    {
+                        "question":"Have you been waking up at night because you can’t breathe?",
+                        "answer":"This can happen if fluid is backing up from your heart to your lungs and is especially common in certain illnesses when you are lying flat on your back. It can also be because of sleep apnea, causing a person to snore.",
+                        "image":"false",
+                        "container":"Heart and Blood Vessels"
+                    },
+                    {
+                        "question":"Any difficulty breathing on exertion [with excess movement, like climbing stairs]?",
+                        "answer":"Difficulty breathing when moving can point to many different things. Your doctor will want to listen to your chest to hear the sounds when you breathe (check out the physical exam to learn more about breath sounds). The different sounds or lack of sounds can point a doctor to a particular disease.",
+                        "image":"false",
+                        "container":"Lungs"
+                    },
+                    {
+                        "question":"Any changes in your normal exercise ability?",
+                        "answer":"A change in your normal exercise can be a sign of your lungs not working how they are supposed. Your doctor will want to investigate this further with the physical exam and possibly pulmonary function tests (PFTs).",
+                        "image":"false",
+                        "container":"Lungs"
+                    },
+                    {
+                        "question":"Any coughing?",
+                        "answer":"Coughing can point to many different things going on with your lungs. It can be a sign of infection, lung disease and cancer(much rarer than the rest).",
+                        "image":"false",
+                        "container":"Lungs"
+                    },
+                    {
+                        "question":"Does anything come up or is it a dry cough?",
+                        "answer":"Dry cough vs mucus coming out of your cough can point to different processes. Dry coughs can point to things such as asthma and post nasal drip, while a wet cough can be a sign of bronchitis or infection.",
+                        "image":"false",
+                        "container":"Lungs"
+                    },
+                    {
+                        "question":"What color is it?",
+                        "answer":"It may sound gross, but the color and consistency can point to different germs in your lungs.",
+                        "image":"false",
+                        "container":"Lungs"
+                    },
+                    {
+                        "question":"How much is it?",
+                        "answer":"Different diseases cause varying amounts of mucus to build up, which can help doctors on their differential diagnosis.",
+                        "image":"false",
+                        "container":"Lungs"
+                    },
+                    {
+                        "question":"When does it start/stop?",
+                        "answer":"The length of time of a cough can lead a doctor to different diagnoses depending if it has only been a few days vs a few months.",
+                        "image":"false",
+                        "container":"Lungs"
+                    },
+                    {
+                        "question":"Any difficulty breathing at rest?",
+                        "answer":"This can point to something that could be more severe and your doctor will want to investigate.",
+                        "image":"false",
+                        "container":"Lungs"
+                    },
+                    {
+                        "question":"Is it difficult to get air in, out, or both?",
+                        "answer":"Some diseases make it harder to get air in (pulmonary fibrosis) while other diseases make it harder to blow air out of your lungs (COPD).",
+                        "image":"false",
+                        "container":"Lungs"
+                    },
+                    {
+                        "question":"Any wheezing?",
+                        "answer":"Wheezing can point to different lung diseases. Asthma commonly causes wheezing as well as some infections",
+                        "image":"false",
+                        "container":"Lungs"
+                    },
+                    {
+                        "question":"Any snoring?",
+                        "answer":"Snoring can point to something like sleep apnea or an obstructed airway. Sleep apnea can make you feel tired even though you are getting enough sleep. Depending on how much snoring and other factors you have, your doctor may order additional tests to check for sleep apnea.",
+                        "image":"false",
+                        "container":"Lungs"
+                    },
+                    {
+                        "question":"Any feelings of heartburn?",
+                        "answer":"People can experience varying sensations with heartburn, ranging from migrating pain in the chest to a sharp sensation to a burning sensation. Heartburn famously is associated with acid reflux. These different sensations can help doctors on their differential diagnosis.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Any pain in your abdomen?",
+                        "answer":"The abdomen is divided into four squares during the physical exam. Each square contains different organs. Sensitivity or pain  in specific squares can point to different diagnoses. Your doctor will focus on this area during the physical exam.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Any pain with or after swallowing?",
+                        "answer":"Difficulty swallowing can be because of a problem with the nerves in your neck, your throat muscles, or your esophagus. Your doctor will check this further in the physical exam.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Any nausea?",
+                        "answer":"Nausea can have many causes and your doctor will use what was learned during the interview and the physical exam to help address any nausea.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Any Vomiting?",
+                        "answer":"It may sound gross, but your vomit can be very informative.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"How would you describe the consistency? ",
+                        "answer":"The consistency can help a doctor know if it is caused by food poisoning, infection or another other G.I. problem,",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Was there any blood?",
+                        "answer":"Throwing up blood can be rather scary, and letting your doctor know it occurred is important because there could be a bleed somewhere along your G.I. tract, infection or other G.I. diseases.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"How much?",
+                        "answer":"The amount of vomit can point to different diseases.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"How many times and for how long?",
+                        "answer":"Doctors want to know this so they can know if this a new issue or something that has been going on for a while because it can change their diagnosis.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Any abdominal swelling?",
+                        "answer":"Abdominal swelling can be caused by variety of causes from inflammation to malnutrition (not getting enough nutrients) that your doctor may order tests for.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Have you passed any gas?",
+                        "answer":"It may be a little gross to talk about farting, but frequency and odor of farts can give your doctor a lot of information about your intestines, constipation, diet, medication side effects and infections.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Any loose stools [diarrhea]?",
+                        "answer":"Diarrhea is a little gross, but it is a useful symptom for doctors to know of because it can help diagnose different disease processes.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Does your poop float?",
+                        "answer":"Floating poop can mean you have too much fat in your poop. This can help doctors diagnose different disease processes.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Any difficulty pooping?",
+                        "answer":"Nobody enjoys constipation. Constipation can be caused by a variety of things including blockage in your G.I. tract and not enough fiber in your diet. Your doctor will check your abdomen during the physical exam and may order tests to determine the cause.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Any changes in the color or consistency of stools?",
+                        "answer":"Poop is something people usually don’t like to discuss, but the color and consistency can be used in diagnosing infections, malnutrition, and other G.I. or inflammatory diseases.",
+                        "image":"false",
+                        "container":"Digestion"
+                    },
+                    {
+                        "question":"Any difficulty getting or maintaining an erection?",
+                        "answer":"As men age, it can be difficult to maintain an erection. There are also other medical conditions that can cause this. Your doctor will be able to address this issue and work with you to help you.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Have you noticed any swelling or masses around your testicles?",
+                        "answer":"Masses and swellings can point the doctor to investigate this during the physical exam to determine what the mass is.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Any growths or wounds on your penis?",
+                        "answer":"Doctors want to know this because growths may be sign of infection and wounds can be a sign of trauma. Your doctor will want to look at the growths and wounds during the physical exam to diagnose their cause.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Any changes to arousal?",
+                        "answer":"Changes in arousal can be related to medication, mental health, and other medical conditions that your doctor will want to address. ",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Any pain or tenderness around breasts?",
+                        "answer":"Pain or tenderness can point to trauma or possible growth in the breast. Your doctor will want to do a breast exam to diagnose the cause.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Any changes in shape of breasts or nipples?",
+                        "answer":"Changes in shape of breasts or nipples can be caused by growths or trauma. Your doctor will want to do a breast exam to diagnose the cause.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Any hot flashes?",
+                        "answer":"Hot flashes can be part of menopause. Your doctor will ask you multiple questions about your process through menopause, and will be a resource for you as go through menopause.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Any lubrication issues/vaginal dryness?",
+                        "answer":"Excess lubrication or excess dryness may be due to a hormonal imbalance that your doctor will want to investigate further with a genital exam and possible blood work.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Any difficulty urinating?",
+                        "answer":"Difficulty urinating can be due to various kidney problems including kidney stones, a urinary tract infection, and other medical conditions in the kidney, bladder, and genitals. Your doctor may check your costophrenic angle during the physical exam for kidney stones, and may have you pee in a cup for a UTI.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Any discharge around your penis/vagina?",
+                        "answer":"Abnormal amounts of discharge from the penis/vagina can point to an infection that your doctor will want to diagnose and treat.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Any cloudiness in urine?",
+                        "answer":"Cloudiness in the urine can point to a kidney, bladder, or genital problem. Your doctor may have you pee in a cup to determine what is clouding up the urine.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Any pain while urinating? ",
+                        "answer":"Pain while urinating can be due to bladder or genital problems. UTIs and kidney stones commonly cause pain while urinating. Your doctor may want you to pee in a cup and order other tests to determine what in the urine is causing the problem.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Do you have to get up in the middle of the night to urinate?",
+                        "answer":"Nobody likes waking up and getting out of the warm, cozy bed to go to the bathroom. Peeing in the middle of the night can be due to many different causes including diabetes, enlarged prostate,and  infections.Your doctor will want to test your urine and possibly your blood to determine the cause.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Do you experience an inability to hold urine in?",
+                        "answer":"Inability to hold your urine (incontinence) is something many people across the world have. Your doctor may be able to prescribe medications that could help with this, depending on the cause.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Do you have difficulty with starting to urinate or to completely empty?",
+                        "answer":"Difficulty to start urinating or completely emptying can be related to an enlarged prostate, infection, kidney stones, and many other medical conditions. Your doctor will focus on this during the genitourinary part of the physical exam.",
+                        "image":"false",
+                        "container":"Genitals and Urination"
+                    },
+                    {
+                        "question":"Any increased bruising?",
+                        "answer":"Bruises can be scary to find. Bruises can be due to low platelet counts, or genetic diseases that makes your blood stick less together. Your doctor will want to run a blood test to find out the causes.",
+                        "image":"false",
+                        "container":"Related to Blood"
+                    },
+                    {
+                        "question":"Any difficulty stopping bleeding from small cuts?",
+                        "answer":"Cuts that don’t stop bleeding can be due to low platelet counts, or genetic diseases that makes your blood stick together less. Your doctor will want to run a blood test to find out the causes.",
+                        "image":"false",
+                        "container":"Related to Blood"
+                    },
+                    {
+                        "question":"Any joint pain or swelling?",
+                        "answer":"Long-term pain or swelling in your joints is commonly caused by arthritis, while more recent pain or swelling can be due to other causes. Your doctor will check this out during the physical exam.",
+                        "image":"false",
+                        "container":"Muscles, Bones, Joints, Tendons, Ligaments, and Movement"
+                    },
+                    {
+                        "question":"Any pain with movement?",
+                        "answer":"The area of the pain can point the doctor to which muscles and joints to focus on during the physical exam.",
+                        "image":"false",
+                        "container":"Muscles, Bones, Joints, Tendons, Ligaments, and Movement"
+                    },
+                    {
+                        "question":"Any muscle aches or spasms?",
+                        "answer":"Doctors will want to look at these areas during the physical exam to determine what is causing the spasm or muscle ache.",
+                        "image":"false",
+                        "container":"Muscles, Bones, Joints, Tendons, Ligaments, and Movement"
+                    },
+                    {
+                        "question":"Any low back pain?",
+                        "answer":"Your doctor will ask you more questions about when the pain started and where on the back your pain is. This will prompt your doctor to focus on the lower back during the physical exam,",
+                        "image":"false",
+                        "container":"Muscles, Bones, Joints, Tendons, Ligaments, and Movement"
+                    },
+                    {
+                        "question":"Any shoulder pain?",
+                        "answer":"Shoulder pain may be caused by an injured nerve, vessel or muscle and depending on where you tell the doctor the pain is (behind the shoulder, in front of the shoulder, etc)  can help your doctor diagnose what is happening.",
+                        "image":"false",
+                        "container":"Muscles, Bones, Joints, Tendons, Ligaments, and Movement"
+                    },
+                    {
+                        "question":"Any pain or difficulty moving your shoulder?",
+                        "answer":"Depending on where the difficulties in movement for your shoulder can help diagnose a deltoid injury, a rotator cuff injury, or bone injury. Move this to the shoulder pain question a few questions above",
+                        "image":"false",
+                        "container":"Muscles, Bones, Joints, Tendons, Ligaments, and Movement"
+                    },
+                    {
+                        "question":"Any knee pain?",
+                        "answer":"Knee pain is commonly one of the first joints to experience pain from many different medical conditions. Your doctor will want to focus on the knee(s) that are in pain during the physical exam and might run blood tests to determine the underlying medical condition.",
+                        "image":"false",
+                        "container":"Muscles, Bones, Joints, Tendons, Ligaments, and Movement"
+                    },
+                    {
+                        "question":"Any difficulty moving/using hands?",
+                        "answer":"Hands are one of the places rheumatoid arthritis loves to go to. Your doctor, during the physical exam, will focus on the hands and run blood tests and x-rays to determine the underlying medical conditions. ",
+                        "image":"false",
+                        "container":"Muscles, Bones, Joints, Tendons, Ligaments, and Movement"
+                    },
+                    {
+                        "question":"Any pain at the hip?",
+                        "answer":"Pain in the hip can be caused by tendonitis, muscle pain, or bone pain. Your doctor will test your range of motion during the physical exam to see which part of the hip the pain is coming from.",
+                        "image":"false",
+                        "container":"Muscles, Bones, Joints, Tendons, Ligaments, and Movement"
+                    },
+                    {
+                        "question":"Any changes in hair growth/loss?",
+                        "answer":"Hair growth and loss can be due to the natural process of aging or due to hormonal changes.",
+                        "image":"false",
+                        "container":"Skin and Hair"
+                    },
+                    {
+                        "question":"Any new growths on your skin?",
+                        "answer":"Doctors will want to look at any of these growths to make sure they do not pose a risk to your health.",
+                        "image":"false",
+                        "container":"Skin and Hair"
+                    },
+                    {
+                        "question":"Any redness/rashes?",
+                        "answer":"Rashes and redness can be due to allergic reactions, infections, cuts, and bruises, to name a few. Your doctor will want to look at the rash or redness to determine what it is.",
+                        "image":"false",
+                        "container":"Skin and Hair"
+                    },
+                    {
+                        "question":"Any wounds that won’t heal?",
+                        "answer":"Wounds that won’t heal are at higher risk for infection and your doctor will want to address this. There can also be an underlying cause regarding why the wound isn’t healing.",
+                        "image":"false",
+                        "container":"Skin and Hair"
+                    },
+                    {
+                        "question":"Any itching? ",
+                        "answer":"Itching is typically caused by allergies, but depending on how bad the itching is, your doctor will focus on the itchy area during the physical exam.",
+                        "image":"false",
+                        "container":"Skin and Hair"
+                    },
+                    {
+                        "question":"Any changes in dryness of skin?",
+                        "answer":"Dryness and cracking of the skin is commonly caused by eczema and psoriasis. Your doctor will look at the skin that is dry to determine what treatment your skin may need.",
+                        "image":"false",
+                        "container":"Skin and Hair"
+                    },
+                    {
+                        "question":"Any lines on fingernails/changes to fingernails?",
+                        "answer":"Our nails change as we age, but they can also change due to nutrition, injury, and other underlying medical conditions.",
+                        "image":"false",
+                        "container":"Skin and Hair"
+                    },
+                    {
+                        "question":"Any feelings of being very cold or very warm?",
+                        "answer":"Being unusually warm or cold can point your doctor to a thyroid problem, a problem with blood vessels (like Raynaud's) or other endocrine related problems. This is something your doctor would order blood tests for to help their diagnosis.",
+                        "image":"false",
+                        "container":"Hormones"
+                    },
+                    {
+                        "question":"Any recent weight loss?",
+                        "answer":"Unexpected weight loss can be due to lots of different things. It can be caused by Celiacs (allergic to gluten), some infections, cancer, and many other diagnoses. This is something your doctor would order blood tests for to help their diagnosis.",
+                        "image":"false",
+                        "container":"Hormones"
+                    },
+                    {
+                        "question":"Did you plan to lose weight?",
+                        "answer":"If you planned on losing weight and were able to, that’s great! Your doctor will be happy to hear that, and it will help your doctor know if the weight loss was expected or unexpected. Unexpected weight loss (aka no change in diet or exercise) can point towards certain medical conditions, which will help in the differential diagnosis.",
+                        "image":"false",
+                        "container":"Hormones"
+                    },
+                    {
+                        "question":"Any increased urge to pee, eat, or increased thirst?",
+                        "answer":"Increased peeing or thirst can be a sign of diabetes, hormonal imbalance, or one of the medications you are on (plus many other areas of the body can play a role). Increased appetite can be related to medications you may be taking or hormonal imbalance.",
+                        "image":"false",
+                        "container":"Hormones"
+                    },
+                    {
+                        "question":"Any recent weight gain?",
+                        "answer":"Weight gain can be caused by many different processes that can be from endocrine, inflammation, G.I, diet and exercise. This is something your doctor would order blood tests for to help their diagnosis.",
+                        "image":"false",
+                        "container":"Hormones"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "physicalExams":
+        {
+            "generalAppearance":
+            {
+
+            },
+            "Vitals":
+            {
+
+            },
+            "Skin":
+            {
+
+            },
+            "Head":
+            {
+
+            },
+            "Eyes":
+            {
+
+            },
+            "Ears":
+            {
+
+            },
+            "nose":
+            {
+
+            },
+            "mouth":
+            {
+
+            },
+            "neck":
+            {
+
+            },
+            "back":
+            {
+
+            },
+            "frontOfChest":
+            {
+
+            },
+            "breastArmpitsUnderarms":
+            {
+
+            },
+            "belly":
+            {
+
+            },
+            "genitalsBladderButt":
+            {
+                
+            },
+            "musclesBonesJoints":
+            {
+
+            },
+            "brainAndNerves":
+            {
+
+            }
+        }
+    },
+    {
+        "commonLabs":
+        {
+            "intro":"",
+            "terms":
+            [
+                {
+                    "term":"",
+                    "definition":""
+                }
+            ]
+        }
+    },
+    {
+        "commonScreeningTools":
+        {
+
+        }
+    },
+    {
+        "commonImagingTools":
+        {
+
+        }
+    },
+    {
+        "commonVaccines":
+        {
+
+        }
+    },
+    {
+        "commonRecommendations":
+        {
+
+        }
+    },
+    {
+        "questionsToAsk":
+        {
+
+        }
+    },
+    {
+        "commonMedicalWords":
+        {
+
+        }
+    }
+]

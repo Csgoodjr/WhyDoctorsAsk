@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+{% block content %}
+    <div class="cards">
+        {% for question in questions %}
+            <div class="card">
+                <h1 class="card-header">{{ question.question }}</h1>
+                <p class="card-message">{{ question.answer }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

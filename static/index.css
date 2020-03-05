@@ -1,0 +1,70 @@
+/* Main Styling */
+
+body {
+    margin: 0;
+}
+
+.main-header {
+    width:100%;
+    height:40px;
+    background: white;
+}
+
+.main-nav {
+    position: fixed;
+    width: 98%;
+    height: 40px;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0.5%;
+    background: white;
+}
+
+.main-nav-button {
+    width: 180px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+    background: lightgray;
+    text-align: center;
+}
+
+.main-nav-button:hover {
+    cursor: pointer;
+}
+
+/* End Main Styling */
+
+/* Card Styling */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 3rem;
+    padding: 20px;
+}
+
+.card {
+    border: 0.1 solid black;
+    border-radius: 25px;
+    padding: 2rem;
+    background: var(--main-bg-color);
+    box-shadow: 3px 5px 10px 3px lightgray;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+/* End Card Styling */
+
+/* Main Footer */
+
+.main-footer {
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(white,darkgray);
+}
+
+/* End Main Footer */
