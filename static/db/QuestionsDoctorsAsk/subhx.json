@@ -1,0 +1,84 @@
+{
+    "info": {
+        "title": "Substance History",
+        "description": "Doctors can ask about some sensitive subjects, and your smoking history, drinking history or use of illicit drugs can be very sensitive subjects. Doctors ask these questions to every patient, they do not share the information with others, and especially not with law enforcement. Doctors do not judge you when it comes to substance use. Different substances can have direct impacts on your health and doctors use this in their differential diagnosis."
+    },
+    "containers": [
+        {
+            "title":"Cigarettes",
+            "questions": [
+                {
+                    "question": "Do you currently smoke?",
+                    "answer": "",
+                    "image": false,
+                    "container": "Cigarettes"
+                },
+                {
+                    "question": "How many cigarettes do you smoke a day?",
+                    "answer": "",
+                    "image": false,
+                    "container": "Cigarettes"
+                },
+                {
+                    "question": "Have you ever smoked?",
+                    "answer": "",
+                    "image": false,
+                    "container": "Cigarettes"
+                },
+                {
+                    "question": "How many cigarettes a day did you smoke?",
+                    "answer": "",
+                    "image": false,
+                    "container": "Cigarettes"
+                },
+                {
+                    "question": "How many years have you smoked for? ",
+                    "answer": "",
+                    "image": false,
+                    "container": "Cigarettes"
+                },
+                {
+                    "question": "Have you thought about smoking cessation? ",
+                    "answer": "Quitting smoking is one of the best things you can do to increase your health. Just by having your doctor ask you if you would want to quit smoking actually increases the chance that at some point in the future you will try to quit smoking. It is not easy to quit and your doctor will be with you throughout your journey to quitting and help you find what helps you quit or decrease the amount you smoke a day. ",
+                    "image": false,
+                    "container": "Cigarettes"
+                }
+            ]
+        },
+        {
+            "title":"Alcohol",
+            "questions": [
+                {
+                    "question": "Do you currently drink alcohol?",
+                    "answer": "",
+                    "image": false,
+                    "container": "Alcohol"
+                },
+                {
+                    "question": "If you do drink, how much?",
+                    "answer": "",
+                    "image": false,
+                    "container": "Alcohol"
+                },
+                {
+                    "question": "Could you describe your past drinking habits for me?",
+                    "answer": "Doctors ask about alcohol use because alcohol use has direct effects on both your liver, heart, and brain. Your doctor is looking to see if this has an influence on the differential diagnosis.",
+                    "image": false,
+                    "container": "Alcohol"
+                },
+                {
+                    "question": "Have you thought about alcohol cessation? ",
+                    "answer": "Quitting alcohol is a great way to increase your health. Even if it is cutting down on the number of drinks you have, there can be big influences on your health. It is not easy to quit and your doctor will be with you throughout your journey to quitting.",
+                    "image": false,
+                    "container": "Alcohol"
+                },
+                {
+                    "question": "Do you use any Illicit Drugs?",
+                    "answer": "Doctors do not share this with anyone, including law enforcement. The doctor's office is a safe place for you to share about your health. Your doctor is asking this because some drugs can cause a lot of long term symptoms that could have a negative influence on your health.",
+                    "image": false,
+                    "container": "Alcohol"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "info": {
+        "title":"Past Medical History",
+        "description":"This is when your doctor asks about your past health history, which includes things like surgery history and any allergies you have."
+    },
+    "containers": {
+        "main": [
+            {
+                "question": "Do you have any medical conditions?",
+                "answer": "Telling your doctor all of your past conditions can help your doctor determine if they are related to what is happening at the time you come to the office.",
+                "image": false,
+                "container": "Main"
+            },
+            {
+                "question": "Have you had any surgeries?",
+                "answer": "Past surgeries help doctors determine if one of your previous surgeries could be playing a role in what you are seeing the doctor for. Past surgeries may also clue the doctor into some of your past medical conditions. They can use this in their differential diagnosis.",
+                "image": false,
+                "container": "Main"
+            },
+            {
+                "question": "Have you ever been diagnosed with any mental health problems?",
+                "answer": "Mental health is incredibly important. The examination room is always a safe place to share information. Sharing information with your doctor is the best way for the doctor get all the information so they can get whole picture of your past medical history.",
+                "image": false,
+                "container": "Main"
+            },
+            {
+                "question": "Have you ever been injured?",
+                "answer": "Doctors ask this in order to get a picture of your whole health. Injuries such as car accidents can leave long-lasting impacts on your health and telling your doctor can help their differential diagnosis to see if your injury could be related to what you are coming in for.",
+                "image": false,
+                "container": "Main"
+            },
+            {
+                "question": "How often do you see your Primary Care Physician (PCP)?",
+                "answer": "Doctors ask this to know if you are checking in with a doctor about your health on a regular basis, including for annual physicals. Seeing your PCP on a regular basis can help catch diseases early, especially for diseases like cancer where catching the disease early can save your life.",
+                "image": false,
+                "container": "Main"
+            },
+            {
+                "question": "Are you up to date on your immunizations?",
+                "answers": "This includes childhood vaccines, as well as the flu shot. If a doctor suspects an infection, knowing which vaccines you have gotten can help the doctor narrow down which germ is most likely the cause.",
+                "image": false,
+                "container": "Main"
+            },
+            {
+                "question": "Do you wear your seatbelt/text when you drive/ is there a smoke alarm/carbon monoxide detector in your house?",
+                "answer": "These are known as health Maintenance questions to know if you are taking steps to prevent injuries.",
+                "image": false,
+                "container": "Main"
+            },
+            {
+                "question": "Do you wear sunscreen outside?",
+                "answer": "Sunscreen is one of the best ways to prevent sunburn and skin cancer. Doctors ask this to know if they need to look during the physical exam for any marks on your body (even if you say yes, they will still do a general look-over of your skin).",
+                "image": false,
+                "container": "Main"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "This also includes allergic reactions to any medications you have used in the past. If you are allergic to a drug, the doctor will prescribe you something that will not cause an allergic reaction.",
+                "image": false,
+                "container": "Main"
+            },
+            {
+                "question": "Do you take any medication, including over the counter medications?",
+                "answer": "This is so doctors can know if any of the medications they will prescribe to you will interact with any of your medications. Your symptoms can also be related to side effects of a medication you are taking.",
+                "image": false,
+                "container": "Main"
+            },
+            {
+                "question": "Do you take any vitamins?",
+                "answer": "Doctors ask this because there are some medical conditions that are related to vitamin and mineral deficiencies and can use this question to rule those out.",
+                "image": false,
+                "container": "Main"
+            },
+            {
+                "question": "Do you take any herbal supplements?",
+                "answer": "Doctors ask this to know everything that you are taking and if it is having any impact on what you are seeing the doctor for.",
+                "image": false,
+                "container": "Main"
+            }
+        ],
+        "obgyn": [
+            {
+                "question": "When was your last period?",
+                "answer": "This lets doctors know if your last period was within a normal timeframe. Depending on the timeline, they might want to do a pregnancy test or check iron levels. Pregnancy is not the only reason for you to miss your period, although that is the most common association to missed periods.",
+                "image": false,
+                "container": "obgyn"
+            },
+            {
+                "question": "Are your periods regular?",
+                "answer": "This question may cause your doctor to ask more questions describing your periods and may ask for you to follow up with an OB/GYN specialist.",
+                "image": false,
+                "container": "obgyn"
+            },
+            {
+                "question": "Have you been pregnant before?",
+                "answer": "This gives doctors a picture of your whole health because pregnancy does cause changes to the body even after you give birth.",
+                "image": false,
+                "container": "obgyn"
+            },
+            {
+                "question": "If you are in menopause, how are your symptoms?",
+                "answer": "This can tell doctors if the symptoms you are experiencing at your visit are related to the menopause process.",
+                "image": false,
+                "container": "obgyn"
+            },
+            {
+                "question": "Have you had a Pap smear or a Mammogram (females)?",
+                "answer": "Pap smears are a screening tool to check for cervical cancer and Mammograms are used to screen for breast cancers. Pap smear screening tests start around the age of 21 and should be done every three years and mammograms should start after the age of 40 and should be done once a year. If you have a family history of either cervical or breast cancer it is important to talk to your doctor about doing these screening tests earlier. This is also where finding out about family history of cancer becomes important. (Link it to mammo/pap in common screening tests i.e to learn more about pap/mammo click here)",
+                "image": false,
+                "container": "obgyn"
+            }
+        ]
+    }
+}

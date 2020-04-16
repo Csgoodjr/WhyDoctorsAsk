@@ -11,6 +11,10 @@ app = Flask(__name__)
 with open('./static/wda_db.json', 'r') as infile:
     db = json.load(infile)
 
+# Load Database
+with open('./static/db/QuestionsDoctorsAsk/rhx.json','r') as rhx_json:
+    rhx_db = json.load(rhx_json)
+
 # Format Server Time
 def format_server_time():
     server_time = time.localtime()
@@ -67,8 +71,7 @@ def sexhx():
 # Review of Symptoms
 @app.route("/rhx")
 def rhx():
-    rhx_db = db[0]['questionsDoctorsAsk']['reviewOfSymptoms']['questions']
-    return render_template('rhx.html', title="RHX", questions=rhx_db)
+    return render_template('rhx.html', title="RHX", db=rhx_db)
 
 ''' Physical Exams '''
 @app.route("/physical_exams")

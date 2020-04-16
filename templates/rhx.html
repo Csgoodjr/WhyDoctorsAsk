@@ -1,19 +1,31 @@
 {% extends "index.html" %}
 {% block content %}
 <div class="content-blocks">
+
+    <!-- Breadcrumbs -->
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/questions_doctors_ask">Questions Doctors Ask</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Review of Symptoms</li>
+            <li class="breadcrumb-item active" aria-current="page">{{ db.info.title }}</li>
         </ol>
     </nav>
-    <div class="custom-cards">
-        {% for question in questions %}
-        <div class="custom-card">
-            <h1 class="card-title">{{ question.question }}</h1>
-            <p class="card-text">{{ question.answer }}</p>
+
+    {% if db.containers.title == General %}
+        <p>yeah</p>
+    {% endif %}
+
+    <!-- Create Sections -->
+    {% for section in db.containers %}
+        <h1 class="custom-section-title">{{ section.title }}</h1>
+        <div class="custom-cards">
+            <!-- Create Cards -->
+            {% for question in section.questions %}
+                <div class="custom-card">
+                    <h1 class="card-title">{{ question.question }}</h1>
+                    <p class="card-text">{{ question.answer }}</p>
+                </div>
+            {% endfor %}
         </div>
-        {% endfor %}
-    </div>
+    {% endfor %}
 </div>
 {% endblock %}
