@@ -1,0 +1,100 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="content-blocks">
+    <script>
+        $("#questions_doctors_ask").addClass("active")
+    </script>
+    <h1>Questions Doctors Ask <span class="badge badge-secondary">New</span></h1>
+    <p>You are in the room talking with the doctor, who seems to be talking a mile a minute. After you tell the doctor why you
+    are there, you are asked about your family, alcohol use, smoking habits, and sexual activity.  All you came in for was
+    some leg pain- how do all these other questions relate to what’s bothering you? Although it may seem out of nowhere,
+    everything your doctor asks has a reason everything doctors ask is important and here is why</p>
+    <!-- Links to Questions Doctors Ask Pages -->
+    <div class="custom-cards">
+        <div class="card" style="width: 25rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='images/biology-professional.png') }}" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">History of Present Illness</h4>
+                <p class="card-text">This is what doctors call what you are coming to see the doctor for today.</p>
+                <a href="/hpi" class="btn btn-outline-info">History of Present Illness</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='images/american-application.png') }}"
+                alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Past Medical History</h4>
+                <p class="card-text">This is when your doctor asks about your past health history, which includes things like surgery history and any
+                allergies you have.</p>
+                <a href="/pmh" class="btn btn-outline-info">Past Medical History</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='images/medicine-health.png') }}"
+                alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Family Medical History</h4>
+                <p class="card-text">Doesn’t it seem weird for your doctor to ask about your family when you are the one in the office? There is a really
+                important reason why doctors ask about your family: if someone in your immediate family [parent or sibling] has diseases
+                such as diabetes, coronary heart disease, and cancer, it can increase your risk of having these diseases. It means that
+                you are genetically more likely to also get certain diseases as well. This can raise a doctor’s suspicion to order
+                certain tests to determine what is causing your symptoms.</p>
+                <a href="/fhx" class="btn btn-outline-info">Family Medical History</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='images/health-clinic.png') }}"
+                alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Social History</h4>
+                <p class="card-text">Now all of a sudden your doctor switches from asking about your family to asking about your daily life. You may be
+                thinking, “how does this have anything to do with my health?” Your social health is very important in the differential
+                diagnosis. The social history helps the physician take into account your environment and the things going on in your
+                life into their differential diagnosis.</p>
+                <a href="/shx" class="btn btn-outline-info">Social History</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='images/notebook.png') }}"
+                alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Substance History</h4>
+                <p class="card-text">Doctors can ask about some sensitive subjects, and your smoking history, drinking history or use of illicit drugs can be
+                very sensitive subjects. Doctors ask these questions to every patient, they do not share the information with others,
+                and especially not with law enforcement. Doctors do not judge you when it comes to substance use. Different substances
+                can have direct impacts on your health and doctors use this in their differential diagnosis.</p>
+                <a href="/subhx" class="btn btn-outline-info">Substance History</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='images/professional-arm.png') }}"
+                alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Sexual History</h4>
+                <p class="card-text">Doctors can ask about some sensitive subjects and sexual history might be the most sensitive. Doctors ask this of every
+                patient because your sexual health is important. Doctors do not judge you and do not share your information with others
+                (*HIV positive status by law is mandated for you to tell your sexual partners and if you refuse doctors do have the
+                right to tell them). Doctors ask about your sexual history for two reasons. The first is the risk of sexually
+                transmitted diseases, and the second involves sexual function [includes desire for sex, any pain, etc]. Sexually
+                transmitted diseases can have widespread effects across the body that your doctor would want to take into account into
+                their differential diagnosis. Your doctor is also able to answer any questions you have about sex or to help you find
+                resources. </p>
+                <a href="/sexhx" class="btn btn-outline-info">Sexual History</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='images/hospital-control.png') }}"
+                alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Review of Symptoms</h4>
+                <p class="card-text">your doctor might ask you a lot of questions after it seems like the questioning is almost done. They will go through
+                questions, asking about what seems like anything and everything from head to toe. You might start getting annoyed
+                because it seems like you are responding “no” to almost every question. Didn’t the doctor ask you enough about what you
+                came in with to figure it out? Why is the doctor trying to fish for more seemingly useless information and wasting your
+                time? </p>
+                <a href="/rhx" class="btn btn-outline-info">Review of Symptoms</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

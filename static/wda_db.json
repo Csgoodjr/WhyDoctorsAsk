@@ -5,10 +5,6 @@
             "historyOfPresentIllness":
             {
                 "intro":"This is what doctors call what you are coming in to see them for",
-                "sections":
-                [
-                    "Main"
-                ],
                 "questions":
                 [
                     {

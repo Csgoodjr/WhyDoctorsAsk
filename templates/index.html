@@ -2,34 +2,173 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% if title %}
     <title>WhyDoctorsAsk.com - {{ title }}</title>
     {% else %}
     <title>WhyDoctorsAsk.com</title>
     {% endif %}
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+    <!-- JQuery 3.4.1 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- JQuery UI 1.12.1 -->
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/55303f68f2.js" crossorigin="anonymous"></script>
     <script src="{{ url_for('static', filename='index.js') }}"></script>
 </head>
 
 <body>
-    <header class="main-header">
-        <nav class="main-nav">
-            <button class="main-nav-button" onclick="location.href='/home';">Home</button>
-            <button class="main-nav-button" onclick="location.href='/hpi';">HPI</button>
-            <button class="main-nav-button" onclick="location.href='/pmh';">PMH</button>
-            <button class="main-nav-button" onclick="location.href='/fhx';">FHX</button>
-            <button class="main-nav-button" onclick="location.href='/shx';">SHX</button>
-            <button class="main-nav-button" onclick="location.href='/subhx';">SUBHX</button>
-            <button class="main-nav-button" onclick="location.href='/sexhx';">SEXHX</button>
-            <button class="main-nav-button" onclick="location.href='/rhx';">RHX</button>
-            <button class="main-nav-button" onclick="location.href='/about';">About</button>
-        </nav>
-    </header>
-    {% block content %}{% endblock %}
-    <footer class="main-footer">
+    <!-- Bootstrap Navbar -->
+    <!-- Upper Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #7395AE;">
+        <a class="navbar-brand" href="/">
+            WhyDoctorsAsk
+            <span><img style="width:20px;height:35px;" src="{{url_for('static',filename='images/wda_icon.png')}}" /></span>
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="ml-auto navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav> 
+    <!-- Lower Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #557A95;">
+        <div class="collapse navbar-collapse">
+            <ul class="mr-auto navbar-nav">
+                <li id="questions_doctors_ask" class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/questions_doctors_ask" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Questions Doctors Ask
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li id="physical_exams" class="nav-item"><a class="nav-link" href="/physical_exams">Physical Exams</a></li>
+                <li id="common_labs" class="nav-item"><a class="nav-link" href="/common_labs">Common Labs</a></li>
+                <li id="common_screening_tools" class="nav-item"><a class="nav-link" href="/common_screening_tools">Common
+                        Screening Tools</a></li>
+                <li id="common_imaging_tools" class="nav-item"><a class="nav-link" href="/common_imaging_tools">Common
+                        Imaging Tools</a></li>
+                <li id="common_vaccines" class="nav-item"><a class="nav-link" href="/common_vaccines">Common Vaccines</a>
+                </li>
+                <li id="common_recommendations" class="nav-item"><a class="nav-link" href="/common_recommendations">Common
+                        Recommendations</a></li>
+                <li id="questions_to_ask" class="nav-item"><a class="nav-link" href="/questions_to_ask">Questions to Ask</a>
+                </li>
+                <li id="common_medical_words" class="nav-item"><a class="nav-link" href="/common_medical_words">Common
+                        Medical Words</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <div class="main-wrapper">
+        {% block content %}
+        <img class="img-fluid" src="{{url_for('static',filename='images/hospital-illness.png')}}" />
+        <!-- Carousel of Images
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img style="height: 800px;" class="d-block w-100" src="{{url_for('static',filename='images/hospital-room.png')}}" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img style="height: 800px;" class="d-block w-100" src="{{url_for('static',filename='images/health-clinic.png')}}" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img style="height: 800px;" class="d-block w-100" src="{{url_for('static',filename='images/biology-professional.png')}}" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>-->
+
+        <!-- Main Content -->
+        <div class="gray-content-block">
+            <p>
+                You are at the last place you wanted to be: the doctor's office. You have not been feeling so great for the
+                past few days and want to get a check-up. The front desk calls you in and the doctor asks a million
+                questions that seem to come out of nowhere and are a little bit uncomfortable. The doctor takes out this
+                weird device and looks into your ear, and then says you need to get blood work to check the levels of
+                something you&#8217ve never heard of. You walk out confused, not knowing what happened during the visit.
+                Sound familiar?
+            </p>
+            <h1>WhyDoctorsAsk is here to help!</h1>
+            <p>
+                WhyDoctorsAsk is here to help explain why doctors ask the questions, do the exams, and order the tests that
+                they do. We believe that the simplest way for all of us to be healthy and to receive the best healthcare is
+                through open and honest conversations between doctors and their patients. We want to help everyone
+                understand why doctors do the things they do by explaining the interview, the physical exam, common lab
+                tests, common imaging tools, common vaccines, and common words used in medicine. We will also talk about
+                questions to ask your doctor and self exams.
+            </p>
+        </div>
+        {% endblock %}
+    </div>
+
+    
+
+    <footer>
+        <!-- Footer Nav -->
+        <div class="footer-links">
+            <a class="btn btn-light" href="/about">About Us</a>
+            <a class="btn btn-light" href="/#">Blog</a>
+            <a class="btn btn-light" href="/#">Anonymous Questions</a>
+            <a class="btn btn-light" href="/#">Contact Us</a>
+        </div>
+        <!-- Footer Information -->
+        <hr style="width: 70%;border: 1px solid #7395AE;">
+        <p style="width: 70%;margin-left:15%;">If you are having a medical emergency, please call 911 immediately. The fonts and icons are property of Google, LLC.
+            The content on this site is based on various medical resources and is currated by the owners. Diseases and findings
+            that match them are given just as examples. There are many conditions that can have the same signs and appearances.
+            If you have concerns about something specific, we recommend you ask your doctor. All rights reserved &copy;2018.</p>
+        <hr style="width: 70%;border: 1px solid #7395AE;">
+        <p>WhyDoctorsAsk is a division of WhyWeAsk LLC</p>
+        <!-- Socail Media Icons -->
+        <div class="social-media">
+            <div style="text-align:center;padding: 40px;font-size: 75px;">
+                <a href="https://www.facebook.com/Why-Doctors-Ask-323139661611079/">
+                    <span style="color:#3B5998;">
+                        <i class="fab fa-facebook-square"></i>
+                    </span>
+                </a>
+                <a href="https://twitter.com/whyweaskllc?lang=en">
+                    <span style="color:#55ACEE;">
+                        <i class="fab fa-twitter-square"></i>
+                    </span>
+                </a>
+                <a href="https://www.instagram.com/whyweaskllc/?hl=en">
+                    <span style="color:#125688;">
+                        <i class="fab fa-instagram-square"></i>
+                    </span>
+                </a>
+                <a href="#">
+                    <span style="color:#BB0000;">
+                        <i class="fab fa-youtube-square"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 

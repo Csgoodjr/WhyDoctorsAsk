@@ -1,11 +1,19 @@
 {% extends "index.html" %}
 {% block content %}
-<div class="cards">
-    {% for question in questions %}
-    <div class="card">
-        <h1 class="card-header">{{ question.question }}</h1>
-        <p class="card-message">{{ question.answer }}</p>
+<div class="content-blocks">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/questions_doctors_ask">Questions Doctors Ask</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Substance History</li>
+        </ol>
+    </nav>
+    <div class="custom-cards">
+        {% for question in questions %}
+        <div class="custom-card">
+            <h1 class="card-title">{{ question.question }}</h1>
+            <p class="card-text">{{ question.answer }}</p>
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>
 {% endblock %}

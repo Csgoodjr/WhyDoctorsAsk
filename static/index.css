@@ -1,70 +1,78 @@
 /* Main Styling */
-
-body {
-    margin: 0;
+.main-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
 }
-
-.main-header {
-    width:100%;
-    height:40px;
-    background: white;
-}
-
-.main-nav {
-    position: fixed;
-    width: 98%;
-    height: 40px;
-    display:flex;
-    justify-content: space-evenly;
-    padding: 0.5%;
-    background: white;
-}
-
-.main-nav-button {
-    width: 180px;
-    height:40px;
-    border-radius: 10px;
-    border: none;
-    background: lightgray;
-    text-align: center;
-}
-
-.main-nav-button:hover {
-    cursor: pointer;
-}
-
 /* End Main Styling */
 
 /* Card Styling */
-
-.cards {
+.custom-cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(25rem,1fr));
     grid-auto-rows: auto;
     grid-gap: 3rem;
-    padding: 20px;
+    padding: 10px;
 }
-
-.card {
+.custom-card {
     border: 0.1 solid black;
     border-radius: 25px;
     padding: 2rem;
     background: var(--main-bg-color);
     box-shadow: 3px 5px 10px 3px lightgray;
 }
-
-.card:hover {
+.custom-card:hover {
     cursor: pointer;
 }
-
 /* End Card Styling */
 
-/* Main Footer */
-
-.main-footer {
-    height: 400px;
+/* Image Styling */
+.header-image {
     width: 100%;
-    background: linear-gradient(white,darkgray);
+    height: 80%;
+}
+/* End Image Styling */
+
+/* Social Media Styling */
+.fa {
+    font-size: 25px;
+    text-decoration: none;
+}
+.fa:hover {
+    text-decoration: none;
+}
+/* End Social Media Styling */
+
+/* Footer Styling */
+footer {
+    padding-top: 2%;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.footer-links {
+    padding: 15px;
+    width: 30%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+}
+/* End Footer Styling */
+
+/* Content Blocks Styling */
+.content-blocks {
+    margin-top: 2%;
 }
 
-/* End Main Footer */
+.gray-content-block {
+    background-color: lightgray;
+    padding: 5%;
+}
+
+.gray-content-block p {
+    font-size: 20px;
+}
+
+.gray-content-block h1 {
+    text-align: center;
+    padding: 15px;
+}
