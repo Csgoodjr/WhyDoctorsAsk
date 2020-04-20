@@ -3,50 +3,52 @@
         "title": "Sexual History",
         "description": "Doctors can ask about some sensitive subjects and sexual history might be the most sensitive. Doctors ask this of every patient because your sexual health is important. Doctors do not judge you and do not share your information with others (*HIV positive status by law is mandated for you to tell your sexual partners and if you refuse doctors do have the right to tell them). Doctors ask about your sexual history for two reasons. The first is the risk of sexually transmitted diseases, and the second involves sexual function [includes desire for sex, any pain, etc]. Sexually transmitted diseases can have widespread effects across the body that your doctor would want to take into account into their differential diagnosis. Your doctor is also able to answer any questions you have about sex or to help you find resources. "
     },
-    "containers": {
-        "main": [
-            {
-                "question": "Do you have a significant other? ",
-                "answer": "Your doctor asks you this to know if you have a partner and to know if you have a direct support group.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "How are things with your significant other? ",
-                "answer": "Your doctor wants to know how your relationship is going to see if this is impacting your health",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Are you currently sexually active?",
-                "answer": "Doctors ask this to know if a sexually transmitted disease should be in their differential diagnosis.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Do you, or have you ever had sex with males, females, or both?",
-                "answer": "Doctors ask this because there are different risk factors associated with male-female, male-male, or female-female relationships that they will account for in their differential diagnosis.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Do you use contraceptives (condoms, birth control)?",
-                "answer": "Contraceptives are a great way to prevent pregnancy and condoms are a great way in preventing some, but not all sexually transmitted diseases. Doctors ask this to know if you are reducing your risk for both pregnancy and sexually transmitted diseases.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Any problems during sex?",
-                "answer": "Doctors ask this because your sexual health can impact your mental health. By addressing any problems you are currently having with sex, they can help increase your mental health. Additionally, these problems can impact your sexual life, and addressing these issues can help you feel less social or physical discomfort. ",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Are you interested in HIV testing? ",
-                "answer": "Current recommendations is that everyone should be tested for HIV at least once, so your doctor may ask you if you would want to be tested.",
-                "image": false,
-                "container": "Main"
-            }
-        ]
-    }
+    "containers": [
+        {
+            "questions": [
+                {
+                    "question": "Do you have a significant other? ",
+                    "answer": "Your doctor asks you this to know if you have a partner and to know if you have a direct support group.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "How are things with your significant other? ",
+                    "answer": "Your doctor wants to know how your relationship is going to see if this is impacting your health",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Are you currently sexually active?",
+                    "answer": "Doctors ask this to know if a sexually transmitted disease should be in their differential diagnosis.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Do you, or have you ever had sex with males, females, or both?",
+                    "answer": "Doctors ask this because there are different risk factors associated with male-female, male-male, or female-female relationships that they will account for in their differential diagnosis.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Do you use contraceptives (condoms, birth control)?",
+                    "answer": "Contraceptives are a great way to prevent pregnancy and condoms are a great way in preventing some, but not all sexually transmitted diseases. Doctors ask this to know if you are reducing your risk for both pregnancy and sexually transmitted diseases.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Any problems during sex?",
+                    "answer": "Doctors ask this because your sexual health can impact your mental health. By addressing any problems you are currently having with sex, they can help increase your mental health. Additionally, these problems can impact your sexual life, and addressing these issues can help you feel less social or physical discomfort. ",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Are you interested in HIV testing? ",
+                    "answer": "Current recommendations is that everyone should be tested for HIV at least once, so your doctor may ask you if you would want to be tested.",
+                    "image": false,
+                    "container": "Main"
+                }
+            ]
+        }
+    ]
 }

@@ -3,94 +3,97 @@
         "title":"History of Present Illness",
         "description":"This is what doctors call what you are coming in to see them for."
     },
-    "containers": {
-        "main": [
-            {
-                "question": "What brings you to the office today?",
-                "answer": "Most doctors will open their interviews with a question similar to this. It lets you tell your doctor what is going on with you. Always feel free to share anything that is bothering you. Some doctors call this the chief complaint, or the reason you wanted to see a doctor.",
-                "image": false
-            },
-            {
-                "question": "Anything else?",
-                "answer": "A This is a doctor's favorite phrase. It is a way that doctors can get more information in case you remember something else you want to talk about. The whole picture is always important when it comes to your health.",
-                "image": false
-            },
-            {
-                "question": "When did it start?",
-                "answer": "This is known as the onset. By telling doctors when you started feeling bad, doctors can begin to think of possible illnesses that could be the cause. Certain illnesses can cause pain or discomfort at very specific times, like right when you wake up or in the middle of the night. You can also have problems develop when you start getting Stressed out. Knowing the onset (and the things happening with it) can be very helpful.",
-                "image": false
-            },
-            {
-                "question": "Where is the pain or problem?",
-                "answer": "Location, Location, Location. It is very important to know where the pain or discomfort is. It helps doctors know what body functions and anatomy to focus on in both their differential diagnosis and during the physical exam.",
-                "image": false
-            },
-            {
-                "question": "How long has this pain or problem been going on?",
-                "answer": "This is known as the duration. It helps physicians categorize your symptoms. Different symptoms have different timelines, usually categorized as a short timeline (Acute), a medium timeline (Sub-Acute) and a long timeline (Chronic). Each of these timelines can help doctors with their differential diagnosis (a list of what doctors are thinking is happening) to determine what is happening to you. Short or long durations can point to very different health conditions.",
-                "image": false
-            },
-            {
-                "question": "Can you describe the pain or problem?",
-                "answer": "Doctors call this the characteristics. Describing how your body feels helps doctors determine what could possibly be going on. Different characteristics can lead to different diagnoses. For example, migraines are known to have a pulsating pain, while tension headaches feel “band-like.”",
-                "image": false
-            },
-            {
-                "question": "Can you rate the pain?",
-                "answer": "A Most doctors ask on a scale of 1-10, how much pain you are in. Ranking something as low pain does not mean that the doctor will not care about your problem as much. Instead, the scale is used to help doctors determine their priorities on their differential diagnosis.",
-                "image": false
-            },
-            {
-                "question": "Has the pain or problem stayed in one place?",
-                "answer": "Has the pain or problem moved to anywhere else on your body? Doctors call this radiation. This helps doctors think about different processes that can cause pain or problems to move from one place to another.",
-                "image": false
-            },
-            {
-                "question": "How often does this pain or problem happen?",
-                "answer": "This is what doctors call the frequency. It helps doctors sort their differential hypothesis by things that are constant or ones that come and go.",
-                "image": false
-            },
-            {
-                "question": "Does anything make it better?",
-                "answer": "This seems like a silly question. You might wonder, “if I knew how to make it better, why would I be here?” This question however, helps doctors think of treatments that may act in a similar way. Certain diseases also characteristically get better with rest in a quiet room or with use of over the counter medicine.",
-                "image": false
-            },
-            {
-                "question": "Does anything make it worse?",
-                "answer": "Doctors use this to categorize their differential diagnosis. Things that make you feel worse usually have a reason behind them, and doctors use this to determine their diagnosis and treatment plan.",
-                "image": false
-            },
-            {
-                "question": "Have you been having any other signs or symptoms?",
-                "answer": "Doctors love to get all the information they can. Knowing all of the symptoms can help doctors get the full picture and make their differential diagnosis.",
-                "image": false
-            },
-            {
-                "question": "Have you ever had these symptoms before?",
-                "answer": "Your previous experiences with symptoms can help doctors figure out if it something from your past medical history that is causing your symptoms. For example Asthma can reoccur later in life, and letting your doctor know you had asthma attacks when you were younger can point the doctor to the right differential diagnosis.",
-                "image": false
-            },
-            {
-                "question": "Was something major going on in your life when your symptoms began?",
-                "answer": "This question lets doctors know a potential trigger and can help with the differential diagnosis. Doctors do not share anything with the outside world. The examination room is always a safe place to share information. Sharing information with your doctor is the best way for the doctor get all the information needed to help you feel better.",
-                "image": false
-            },
-            {
-                "question": "How has this affected your life?",
-                "answer": "Doctors ask this to know how the problem is affecting your life. A doctor's goal is to help you feel better and to get back to your normal state.",
-                "image": false
-            },
-            {
-                "question": "What does this mean to you?",
-                "answer": "A patient and a doctor are going to think different symptoms mean totally different things. Doctors want to hear what you think is the cause or what is happening with your body so they can address it when they have figured out your diagnosis. A diagnosis is not going to be helpful if the doctor does not explain what it means and if the patient does not understand what is going on.",
-                "image": false
-            },
-            {
-                "question": "What worries you about this problem?",
-                "answer": "A We all get scared and have fears about what is going on with our bodies when we aren’t feeling great. Doctors want to hear what worries you about the problem because their goal is to help put you at ease and help you feel better!",
-                "image": false
-            }
-        ]
-    }
+    "containers": [
+        {
+            "questions": [
+                {
+                    "question": "What brings you to the office today?",
+                    "answer": "Most doctors will open their interviews with a question similar to this. It lets you tell your doctor what is going on with you. Always feel free to share anything that is bothering you. Some doctors call this the chief complaint, or the reason you wanted to see a doctor.",
+                    "image": false
+                },
+                {
+                    "question": "Anything else?",
+                    "answer": "A This is a doctor's favorite phrase. It is a way that doctors can get more information in case you remember something else you want to talk about. The whole picture is always important when it comes to your health.",
+                    "image": false
+                },
+                {
+                    "question": "When did it start?",
+                    "answer": "This is known as the onset. By telling doctors when you started feeling bad, doctors can begin to think of possible illnesses that could be the cause. Certain illnesses can cause pain or discomfort at very specific times, like right when you wake up or in the middle of the night. You can also have problems develop when you start getting Stressed out. Knowing the onset (and the things happening with it) can be very helpful.",
+                    "image": false
+                },
+                {
+                    "question": "Where is the pain or problem?",
+                    "answer": "Location, Location, Location. It is very important to know where the pain or discomfort is. It helps doctors know what body functions and anatomy to focus on in both their differential diagnosis and during the physical exam.",
+                    "image": false
+                },
+                {
+                    "question": "How long has this pain or problem been going on?",
+                    "answer": "This is known as the duration. It helps physicians categorize your symptoms. Different symptoms have different timelines, usually categorized as a short timeline (Acute), a medium timeline (Sub-Acute) and a long timeline (Chronic). Each of these timelines can help doctors with their differential diagnosis (a list of what doctors are thinking is happening) to determine what is happening to you. Short or long durations can point to very different health conditions.",
+                    "image": false
+                },
+                {
+                    "question": "Can you describe the pain or problem?",
+                    "answer": "Doctors call this the characteristics. Describing how your body feels helps doctors determine what could possibly be going on. Different characteristics can lead to different diagnoses. For example, migraines are known to have a pulsating pain, while tension headaches feel “band-like.”",
+                    "image": false
+                },
+                {
+                    "question": "Can you rate the pain?",
+                    "answer": "A Most doctors ask on a scale of 1-10, how much pain you are in. Ranking something as low pain does not mean that the doctor will not care about your problem as much. Instead, the scale is used to help doctors determine their priorities on their differential diagnosis.",
+                    "image": false
+                },
+                {
+                    "question": "Has the pain or problem stayed in one place?",
+                    "answer": "Has the pain or problem moved to anywhere else on your body? Doctors call this radiation. This helps doctors think about different processes that can cause pain or problems to move from one place to another.",
+                    "image": false
+                },
+                {
+                    "question": "How often does this pain or problem happen?",
+                    "answer": "This is what doctors call the frequency. It helps doctors sort their differential hypothesis by things that are constant or ones that come and go.",
+                    "image": false
+                },
+                {
+                    "question": "Does anything make it better?",
+                    "answer": "This seems like a silly question. You might wonder, “if I knew how to make it better, why would I be here?” This question however, helps doctors think of treatments that may act in a similar way. Certain diseases also characteristically get better with rest in a quiet room or with use of over the counter medicine.",
+                    "image": false
+                },
+                {
+                    "question": "Does anything make it worse?",
+                    "answer": "Doctors use this to categorize their differential diagnosis. Things that make you feel worse usually have a reason behind them, and doctors use this to determine their diagnosis and treatment plan.",
+                    "image": false
+                },
+                {
+                    "question": "Have you been having any other signs or symptoms?",
+                    "answer": "Doctors love to get all the information they can. Knowing all of the symptoms can help doctors get the full picture and make their differential diagnosis.",
+                    "image": false
+                },
+                {
+                    "question": "Have you ever had these symptoms before?",
+                    "answer": "Your previous experiences with symptoms can help doctors figure out if it something from your past medical history that is causing your symptoms. For example Asthma can reoccur later in life, and letting your doctor know you had asthma attacks when you were younger can point the doctor to the right differential diagnosis.",
+                    "image": false
+                },
+                {
+                    "question": "Was something major going on in your life when your symptoms began?",
+                    "answer": "This question lets doctors know a potential trigger and can help with the differential diagnosis. Doctors do not share anything with the outside world. The examination room is always a safe place to share information. Sharing information with your doctor is the best way for the doctor get all the information needed to help you feel better.",
+                    "image": false
+                },
+                {
+                    "question": "How has this affected your life?",
+                    "answer": "Doctors ask this to know how the problem is affecting your life. A doctor's goal is to help you feel better and to get back to your normal state.",
+                    "image": false
+                },
+                {
+                    "question": "What does this mean to you?",
+                    "answer": "A patient and a doctor are going to think different symptoms mean totally different things. Doctors want to hear what you think is the cause or what is happening with your body so they can address it when they have figured out your diagnosis. A diagnosis is not going to be helpful if the doctor does not explain what it means and if the patient does not understand what is going on.",
+                    "image": false
+                },
+                {
+                    "question": "What worries you about this problem?",
+                    "answer": "A We all get scared and have fears about what is going on with our bodies when we aren’t feeling great. Doctors want to hear what worries you about the problem because their goal is to help put you at ease and help you feel better!",
+                    "image": false
+                }
+            ]
+        }
+    ]
+    
 }
 

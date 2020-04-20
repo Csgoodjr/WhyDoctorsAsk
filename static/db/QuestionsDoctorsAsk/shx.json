@@ -3,166 +3,174 @@
         "title": "Social History",
         "description": "Now all of a sudden your doctor switches from asking about your family to asking about your daily life. You may be thinking, “how does this have anything to do with my health?” Your social health is very important in the differential diagnosis. The social history helps the physician take into account your environment and the things going on in your life into their differential diagnosis."
     },
-    "containers": {
-        "main": [
-            {
-                "question": "Can you take me through a normal day?",
-                "answer": "Doctors ask this for information about your normal day to day activities. This can help doctors understand how what you are coming in for is affecting you.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Who do you live with? ",
-                "answer": "Doctors ask this to get a picture of your direct support system.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "How are things at home?",
-                "answer": "Doctors ask this to know if there is increased stress at home that could affect your health. The doctor's office is a safe place to share information and if domestic violence is occuring in your home your doctor can help.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Do you have anyone to rely on?",
-                "answer": "Doctors ask this to get a picture of your support system.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "How have your friends and family responded to your illness?",
-                "answer": "Doctors ask this to gauge if the symptoms you are feeling are visible to your support group because this can point to the symptoms impacting your life more.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Where do you work? ",
-                "answer": "Doctors care about your work! Doctors are looking for physical, chemical, and emotional work hazards, since they could relate to the diagnosis. Alternatively, if you don’t work, you might be extra Stressed or relaxed.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "How is work?",
-                "answer": "Doctors use this to find out your stress levels at work.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Do you have any sick contacts?",
-                "answer": "Doctors ask this to know if there are people around you who have an infection. This may make certain infections higher on the doctor’s differential diagnosis.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Have you traveled recently?",
-                "answer": "Doctors ask this to know if you gone to an area where other infections are more common. This may make certain infections higher on the doctor’s differential diagnosis.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "How is your diet?",
-                "answer": "Your diet is so important to your health. Doctors want to know if you are getting the sugar, protein, fat,  vitamins, salt, and minerals you need each day. Missing too much of one thing or having too much of another thing can have a large effect on your health. Ask your doctor about your diet and if you are giving your body everything you need. Dieting can be scary and not all the diets floating around on the internet are safe. Your doctor can help you get started in the right direction, or refer you to a dietician or nutritionist.  One of the best ways to start a safer diet is make small changes. For example, if you drink 2 glasses of soda a day, try cutting it down to 1 a day.",
-                "image": false,
-                "container": "Main"
-            }
-        ],
-        "exercise": [
-            {
-                "question": [
-                    "How often do you excercise?",
-                    "How long do you excercise for?",
-                    "What type of excercise?"
-                ],
-                "answer": "Doctors ask about excercise because it is important for your physical health. Excercise is one of the best ways to prevent getting sick. It helps keep your muscles working (can burn calories even at rest!) and can even help your brain function better. Excercise can include weight-lifting, jogging, sprinting, swimming, and even something as simple as walking the long route to the cafeteria for lunch. It’s tough to fit Excercise into our busy lives, so try to make small adjustments that can lead you to exercising a little more each day.",
-                "image": false,
-                "container": "Excercise"
-            }
-        ],
-        "stress": [
-            {
-                "question": "Do you have any financial concerns?",
-                "answer": "It sounds a little weird for your doctor (the one you’re paying right now for the visit) to ask about your finances. There is a reason though! Depending on your concerns, your doctor will work with you to prescribe medications that can fit your budget but still be effective. Your doctor may also share with you other resources to help pay for medication, and health insurance.",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "How would you rate your stress?",
-                "answer": "Stress can have huge impacts on your health. Stress can throw your whole body out of whack and a doctor asks about stress levels to determine if it is affecting your symptoms.",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "Have you had any recent significant life events?",
-                "answer": "Doctors ask this to find out if these events are having any impact on your health and if this could be affecting the symptoms you are coming in for.",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "How would you describe your mood?",
-                "answer": "Your mental health is important! Share with your doctor how you have been feeling. It can help your doctor know if this is affecting your health.",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "Have you had any anxiety?",
-                "answer": "You may feel anxious just being in the doctor's office, but your doctor wants to know so that they can give you either the resources or medications to help prevent your anxiety.",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "Have you felt depressed?",
-                "answer": "Depression is a serious matter and you should tell your doctor how your mood has been. Your doctor can give you the resources or medications to help you through your depression. Your doctor may also ask some other questions that include:",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "How is your sleep?",
-                "answer": "Depression can cause sleep problems.",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "What are you interested in? ",
-                "answer": "Depression leads to decreased interest.",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "Do you feel guilty about anything?",
-                "answer": "Depression can make you feel more guilty than you normally would.",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "How is your energy level?",
-                "answer": "Depression can decrease your energy level.",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "How has your concentration been lately? ",
-                "answer": "Depression can make it harder to concentrate",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "How is your appetite?",
-                "answer": "Depression can decrease your appetite.",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "Have you felt suicidal?",
-                "answer": "Suicide is on the rise in United States, and it is believed that 50% of people who commit suicide visit their doctor 4 weeks before. Doctors ask this in order to give you resources to help you. If you or a loved one are feeling suicidal call the suicide hotline at 1-800-273-8255.",
-                "image": false,
-                "container": "Stress"
-            },
-            {
-                "question": "Have you ever had any physical or sexual abuse? ",
-                "answer": "Your doctor’s office is a safe place to share information like this. Your doctor does not share this with anyone and only uses this to give you the best care they can.",
-                "image": false,
-                "container": "Stress"
-            }
-        ]
-    }
+    "containers": [
+        {
+            "questions": [
+                {
+                    "question": "Can you take me through a normal day?",
+                    "answer": "Doctors ask this for information about your normal day to day activities. This can help doctors understand how what you are coming in for is affecting you.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Who do you live with? ",
+                    "answer": "Doctors ask this to get a picture of your direct support system.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "How are things at home?",
+                    "answer": "Doctors ask this to know if there is increased stress at home that could affect your health. The doctor's office is a safe place to share information and if domestic violence is occuring in your home your doctor can help.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Do you have anyone to rely on?",
+                    "answer": "Doctors ask this to get a picture of your support system.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "How have your friends and family responded to your illness?",
+                    "answer": "Doctors ask this to gauge if the symptoms you are feeling are visible to your support group because this can point to the symptoms impacting your life more.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Where do you work? ",
+                    "answer": "Doctors care about your work! Doctors are looking for physical, chemical, and emotional work hazards, since they could relate to the diagnosis. Alternatively, if you don’t work, you might be extra Stressed or relaxed.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "How is work?",
+                    "answer": "Doctors use this to find out your stress levels at work.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Do you have any sick contacts?",
+                    "answer": "Doctors ask this to know if there are people around you who have an infection. This may make certain infections higher on the doctor’s differential diagnosis.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Have you traveled recently?",
+                    "answer": "Doctors ask this to know if you gone to an area where other infections are more common. This may make certain infections higher on the doctor’s differential diagnosis.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "How is your diet?",
+                    "answer": "Your diet is so important to your health. Doctors want to know if you are getting the sugar, protein, fat,  vitamins, salt, and minerals you need each day. Missing too much of one thing or having too much of another thing can have a large effect on your health. Ask your doctor about your diet and if you are giving your body everything you need. Dieting can be scary and not all the diets floating around on the internet are safe. Your doctor can help you get started in the right direction, or refer you to a dietician or nutritionist.  One of the best ways to start a safer diet is make small changes. For example, if you drink 2 glasses of soda a day, try cutting it down to 1 a day.",
+                    "image": false,
+                    "container": "Main"
+                }
+            ]
+        },
+        {
+            "title":"Exercise",
+            "questions": [
+                {
+                    "question": [
+                        "How often do you excercise?",
+                        "How long do you excercise for?",
+                        "What type of excercise?"
+                    ],
+                    "answer": "Doctors ask about excercise because it is important for your physical health. Excercise is one of the best ways to prevent getting sick. It helps keep your muscles working (can burn calories even at rest!) and can even help your brain function better. Excercise can include weight-lifting, jogging, sprinting, swimming, and even something as simple as walking the long route to the cafeteria for lunch. It’s tough to fit Excercise into our busy lives, so try to make small adjustments that can lead you to exercising a little more each day.",
+                    "image": false,
+                    "container": "Excercise"
+                }
+            ]
+        },
+        {
+            "title":"Stress",
+            "questions": [
+                {
+                    "question": "Do you have any financial concerns?",
+                    "answer": "It sounds a little weird for your doctor (the one you’re paying right now for the visit) to ask about your finances. There is a reason though! Depending on your concerns, your doctor will work with you to prescribe medications that can fit your budget but still be effective. Your doctor may also share with you other resources to help pay for medication, and health insurance.",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "How would you rate your stress?",
+                    "answer": "Stress can have huge impacts on your health. Stress can throw your whole body out of whack and a doctor asks about stress levels to determine if it is affecting your symptoms.",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "Have you had any recent significant life events?",
+                    "answer": "Doctors ask this to find out if these events are having any impact on your health and if this could be affecting the symptoms you are coming in for.",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "How would you describe your mood?",
+                    "answer": "Your mental health is important! Share with your doctor how you have been feeling. It can help your doctor know if this is affecting your health.",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "Have you had any anxiety?",
+                    "answer": "You may feel anxious just being in the doctor's office, but your doctor wants to know so that they can give you either the resources or medications to help prevent your anxiety.",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "Have you felt depressed?",
+                    "answer": "Depression is a serious matter and you should tell your doctor how your mood has been. Your doctor can give you the resources or medications to help you through your depression. Your doctor may also ask some other questions that include:",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "How is your sleep?",
+                    "answer": "Depression can cause sleep problems.",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "What are you interested in? ",
+                    "answer": "Depression leads to decreased interest.",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "Do you feel guilty about anything?",
+                    "answer": "Depression can make you feel more guilty than you normally would.",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "How is your energy level?",
+                    "answer": "Depression can decrease your energy level.",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "How has your concentration been lately? ",
+                    "answer": "Depression can make it harder to concentrate",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "How is your appetite?",
+                    "answer": "Depression can decrease your appetite.",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "Have you felt suicidal?",
+                    "answer": "Suicide is on the rise in United States, and it is believed that 50% of people who commit suicide visit their doctor 4 weeks before. Doctors ask this in order to give you resources to help you. If you or a loved one are feeling suicidal call the suicide hotline at 1-800-273-8255.",
+                    "image": false,
+                    "container": "Stress"
+                },
+                {
+                    "question": "Have you ever had any physical or sexual abuse? ",
+                    "answer": "Your doctor’s office is a safe place to share information like this. Your doctor does not share this with anyone and only uses this to give you the best care they can.",
+                    "image": false,
+                    "container": "Stress"
+                }
+            ]
+        }
+    ]
 }

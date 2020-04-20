@@ -3,32 +3,34 @@
         "title":"Family Medical History",
         "description":"Doesn’t it seem weird for your doctor to ask about your family when you are the one in the office? There is a really important reason why doctors ask about your family: if someone in your immediate family [parent or sibling] has diseases such as diabetes, coronary heart disease, and cancer, it can increase your risk of having these diseases. It means that you are genetically more likely to also get certain diseases as well. This can raise a doctor’s suspicion to order certain tests to determine what is causing your symptoms."
     },
-    "containers": {
-        "main": [
-            {
-                "question": "Can you tell me about your parents?",
-                "answer": "Doctors will ask about medical conditions that your parents had. They look for events that occurred early such as having a heart attack at a young age. This is so doctors can evaluate your risk for certain diseases based on what your family has had in the past.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Can you tell me about your siblings?",
-                "answer": "Doctors ask about your siblings because your DNA is closely related. Diseases that your siblings have may indicate to your doctor that you are at a higher risk of developing that disease. Your doctor will most like order certain tests and tell you about prevention strategies.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Can you tell me about your children if you have any?",
-                "answer": "Doctors ask this to get the full picture of your family.",
-                "image": false,
-                "container": "Main"
-            },
-            {
-                "question": "Can you tell me about your grandparents?",
-                "answer": "Doctors will ask about medical conditions that your grandparents had. They look for events that occurred early such as having a heart attack at a young age. This is so doctors can evaluate your risk for certain diseases based on what your family has had in the past.",
-                "image": false,
-                "container": "Main"
-            }
-        ]
-    }
+    "containers": [
+        {
+            "questions": [
+                {
+                    "question": "Can you tell me about your parents?",
+                    "answer": "Doctors will ask about medical conditions that your parents had. They look for events that occurred early such as having a heart attack at a young age. This is so doctors can evaluate your risk for certain diseases based on what your family has had in the past.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Can you tell me about your siblings?",
+                    "answer": "Doctors ask about your siblings because your DNA is closely related. Diseases that your siblings have may indicate to your doctor that you are at a higher risk of developing that disease. Your doctor will most like order certain tests and tell you about prevention strategies.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Can you tell me about your children if you have any?",
+                    "answer": "Doctors ask this to get the full picture of your family.",
+                    "image": false,
+                    "container": "Main"
+                },
+                {
+                    "question": "Can you tell me about your grandparents?",
+                    "answer": "Doctors will ask about medical conditions that your grandparents had. They look for events that occurred early such as having a heart attack at a young age. This is so doctors can evaluate your risk for certain diseases based on what your family has had in the past.",
+                    "image": false,
+                    "container": "Main"
+                }
+            ]
+        }
+    ]
 }
