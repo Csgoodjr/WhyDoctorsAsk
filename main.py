@@ -1,14 +1,14 @@
 # Required Imports
 import os
 import json 
-from flask import Flask, render_template, url_for, jsonify
+from flask import Flask, render_template, url_for, jsonify, redirect
 from firebase_admin import credentials, firestore, initialize_app
 
 # Create Flask instance 
 app = Flask(__name__)
 
 # Init Firebase DB
-cred = credentials.Certificate('firebase-private-key.json')
+cred = credentials.Certificate('key.json')
 default_app = initialize_app(cred)
 db = firestore.client()
 
@@ -122,7 +122,12 @@ def common_medical_words():
 def about():
     return render_template('about.html',title="About Us")
 
+# Server Error Handler
+@app.errorhandler(500)
+def server_error(e):
+    return f"Something went wrong: {e}"
+
 # Init the server with config items
 port = int(os.environ.get('PORT',8080))
 if __name__ == "__main__":
-    app.run(threaded=True,host='0.0.0.0',port=port)
+    app.run(threaded=True,host='127.0.0.1',port=port)
