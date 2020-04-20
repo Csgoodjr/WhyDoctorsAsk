@@ -4,16 +4,23 @@
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/questions_doctors_ask">Questions Doctors Ask</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Past Medical History</li>
+            <li class="breadcrumb-item active" aria-current="page">{{ db.info.title }}</li>
         </ol>
     </nav>
+    <!-- Create Sections -->
+    {% for section in db.containers %}
+    {% if section.title %}
+    <h1 class="custom-section-title">{{ section.title }}</h1>
+    {% endif %}
     <div class="custom-cards">
-        {% for question in questions %}
+        <!-- Create Cards -->
+        {% for question in section.questions %}
         <div class="custom-card">
             <h1 class="card-title">{{ question.question }}</h1>
             <p class="card-text">{{ question.answer }}</p>
         </div>
         {% endfor %}
     </div>
+    {% endfor %}
 </div>
 {% endblock %}

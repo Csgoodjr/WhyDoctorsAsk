@@ -1,26 +1,17 @@
 # Required Imports
 import os
 import json 
-import time 
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, jsonify
+from firebase_admin import credentials, firestore, initialize_app
 
 # Create Flask instance 
 app = Flask(__name__)
 
-# Access the JSON DB
-with open('./static/wda_db.json', 'r') as infile:
-    db = json.load(infile)
+# Init Firebase DB
+cred = credentials.Certificate('firebase-private-key.json')
+default_app = initialize_app(cred)
+db = firestore.client()
 
-# Load Database
-with open('./static/db/QuestionsDoctorsAsk/rhx.json','r') as rhx_json:
-    rhx_db = json.load(rhx_json)
-
-# Format Server Time
-def format_server_time():
-    server_time = time.localtime()
-    return time.strftime("%I:%M:%S %p", server_time)
-
-# Define the routes for the site's nav
 # Home/Main Page
 @app.route('/')
 @app.route('/home')
@@ -30,48 +21,58 @@ def index():
 ''' Questions Doctors Ask '''
 @app.route("/questions_doctors_ask")
 def qda():
-    return render_template('questions_doctors_ask.html',title="Questions Doctors Ask",info=db[0])
+    with open('./static/db/QuestionsDoctorsAsk/qda.json', 'r') as qda_json:
+        qda_db = json.load(qda_json)
+    return render_template('questions_doctors_ask.html',title="Questions Doctors Ask",db=qda_db)
 
 # History of Present Illness Page
 @app.route("/hpi")
 def hpi():
-    hpi_db = db[0]['questionsDoctorsAsk']['historyOfPresentIllness']['questions']
-    return render_template('hpi.html',title="HPI",questions=hpi_db)
+    with open('./static/db/QuestionsDoctorsAsk/hpi.json', 'r') as hpi_json:
+        hpi_db = json.load(hpi_json)
+    return render_template('questions_doctors_ask_cards.html',title="HPI",db=hpi_db)
 
 # Past Medical History
 @app.route("/pmh")
 def pmh():
-    pmh_db = db[0]['questionsDoctorsAsk']['pastMedicalHistory']['questions']
-    return render_template('pmh.html', title="PMH", questions=pmh_db)
+    with open('./static/db/QuestionsDoctorsAsk/pmh.json', 'r') as pmh_json:
+        pmh_db = json.load(pmh_json)
+    return render_template('questions_doctors_ask_cards.html', title="PMH", db=pmh_db)
 
 # Family History 
 @app.route("/fhx")
 def fhx():
-    fhx_db = db[0]['questionsDoctorsAsk']['familyHistory']['questions']
-    return render_template('fhx.html', title="FHX", questions=fhx_db)
+    with open('./static/db/QuestionsDoctorsAsk/fhx.json', 'r') as fhx_json:
+        fhx_db = json.load(fhx_json)
+    return render_template('questions_doctors_ask_cards.html', title="FHX", db=fhx_db)
 
 # Social History 
 @app.route("/shx")
 def shx():
-    shx_db = db[0]['questionsDoctorsAsk']['socialHistory']['questions']
-    return render_template('shx.html', title="SHX", questions=shx_db)
+    with open('./static/db/QuestionsDoctorsAsk/shx.json', 'r') as shx_json:
+        shx_db = json.load(shx_json)
+    return render_template('questions_doctors_ask_cards.html', title="SHX", db=shx_db)
 
 # Substance History
 @app.route("/subhx")
 def subhx():
-    subhx_db = db[0]['questionsDoctorsAsk']['substanceHistory']['questions']
-    return render_template('subhx.html', title="SUBHX", questions=subhx_db)
+    with open('./static/db/QuestionsDoctorsAsk/subhx.json', 'r') as subhx_json:
+        subhx_db = json.load(subhx_json)
+    return render_template('questions_doctors_ask_cards.html', title="SUBHX", db=subhx_db)
 
 # Sexual History
 @app.route("/sexhx")
 def sexhx():
-    sexhx_db = db[0]['questionsDoctorsAsk']['sexualHistory']['questions']
-    return render_template('sexhx.html',title="SEXHX",questions=sexhx_db)
+    with open('./static/db/QuestionsDoctorsAsk/sexhx.json', 'r') as sexhx_json:
+        sexhx_db = json.load(sexhx_json)
+    return render_template('questions_doctors_ask_cards.html', title="SEXHX", db=sexhx_db)
 
 # Review of Symptoms
 @app.route("/rhx")
 def rhx():
-    return render_template('rhx.html', title="RHX", db=rhx_db)
+    with open('./static/db/QuestionsDoctorsAsk/rhx.json', 'r') as rhx_json:
+        rhx_db = json.load(rhx_json)
+    return render_template('questions_doctors_ask_cards.html', title="RHX", db=rhx_db)
 
 ''' Physical Exams '''
 @app.route("/physical_exams")
@@ -122,5 +123,6 @@ def about():
     return render_template('about.html',title="About Us")
 
 # Init the server with config items
+port = int(os.environ.get('PORT',8080))
 if __name__ == "__main__":
-    app.run(debug=True,host='0.0.0.0')
+    app.run(threaded=True,host='0.0.0.0',port=port)
